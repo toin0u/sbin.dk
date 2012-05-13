@@ -1,0 +1,32 @@
+---
+layout: default
+title: List of tags
+---
+
+<h2>{{ page.title }}</h2>
+<ul id="tags-list" class="clearfix">
+    {% for tag in site.tags %}
+        <li>
+            <a class="tag" href="#{{ tag[0] | cgi_escape }}">{{ tag[0] | capitalize }}
+            <span class="size" title="number of posts">{{ tag[1].size }}</span></a>
+        </li>
+    {% endfor %}
+</ul>
+
+{% for tag in site.tags %}
+<section id="{{ tag[0] | cgi_escape }}">
+    <h3>{{ tag[0] | capitalize}}</h3>
+    <ul>
+    {% for post in tag[1] %}
+        {% if post.title != null %}
+            <li>
+                <time datetime="{{ post.date | date_to_xmlschema }}">
+                    &raquo; {{ post.date | date_to_long_string }}
+                </time>
+                <a href="{{ post.url }}">{{ post.title | capitalize}}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</section>
+{% endfor %}

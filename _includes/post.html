@@ -1,0 +1,24 @@
+<header>
+    <h2>
+        <a rel="bookmark" href="{{ page.url }}" itemprop="headline url">{{ page.title | capitalize }}</a>
+    </h2>
+</header>
+<div class="content" itemprop="articleBody">
+    {{ content }}
+</div>
+<footer>
+    //
+    <time datetime="{{ page.date | date_to_string }}" itemprop="datePublished">
+        {{ page.date | date_to_long_string }}
+    </time>
+    //
+    <span itemprop="keywords">
+        <a rel="category" class="category" href="/categories/#{{ page.category | cgi_escape }}">{{ page.category | capitalize}}</a>
+    </span>
+    //
+    <span itemprop="keywords">
+    {% for tag in page.tags %}
+        <a rel="tag" class="tag" href="/tags/#{{ tag | cgi_escape }}">{{ tag | capitalize}}</a>{% unless page.tags.last == tag %}, {% endunless %}
+    {% endfor %}
+    </span>
+</footer>

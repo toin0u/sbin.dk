@@ -1,0 +1,22 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+    Web Developer: Antoine Corcy
+    Site: http://sbin.dk/
+    Twitter: https://twitter.com/toin0u
+    github: https://github.com/toin0u
+    google+: https://plus.google.com/100161090014693834503/
+    linkedin: http://www.linkedin.com/
+    facebook: https://facebook.com/toin0u
+    tumblr: http://dkfr.tumblr.com/
+    lastfm: http://last.fm/user/ackorea
+    Location: Copenhagen
+
+/* SITE */
+    Last update: 13 May 2012
+    Standards: HTML5, CSS3, RSS, Media Queries, Microdata, WAI-ARIA, CORS
+    Components: HTML5 Boilerplate, Modernizr, jQuery
+    Software: Sublime Text 2, Jekyll, LESS
+    Source: https://github.com/toin0u/sbin.dk

@@ -1,0 +1,39 @@
+{% include doctype.html %}
+{% include head.html %}
+<body>
+    <header>
+        <h1>// <a href="{{ site.url }}">{{ site.name }}</a></h1>
+        <ul>
+            <li><a href="/">Home</a> &middot;</li>
+            <li><a href="/about/">About</a> &middot;</li>
+            <li><a href="/categories/">Categories</a> &middot;</li>
+            <li><a href="/tags/">Tags</a> &middot;</li>
+            <li><a href="/archives/">Archives</a></li>
+        </ul>
+        <div>Last tweet: todo</div>
+    </header>
+    <div id="main" role="main">
+        {{ content }}
+    </div>
+    <footer>
+        <ul>
+            <li><a href="{{ site.github }}">github</a> &middot;</li>
+            <li><a href="{{ site.twitter }}">twitter</a> &middot;</li>
+            <li><a href="{{ site.googleplus }}">google+</a> &middot;</li>
+            <li><a href="{{ site.linkedin }}">linkedin</a> &middot;</li>
+            <li><a href="{{ site.facebook }}">facebook</a> &middot;</li>
+            <li><a href="{{ site.tumblr }}">tumblr</a> &middot;</li>
+            <li><a href="{{ site.lastfm }}">lastfm</a></li>
+        </ul>
+        <p>
+            Powered with <a href="http://jekyllrb.com/">Jekyll</a> and hosted by <a href="http://www.heroku.com/">Heroku</a>
+            {{ site.copyright }}
+        </p>
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/static/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+    <script src="/static/js/plugins.js"></script>
+    <script src="/static/js/script.js"></script>
+    {% include ga.html %}
+</body>
+</html>

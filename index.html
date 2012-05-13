@@ -1,0 +1,31 @@
+---
+layout: default
+title: Welcome
+---
+
+{% for page in paginator.posts %}
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    {% capture content %}{{ page.content }}{% endcapture %}
+    {% include post.html %}
+</article>
+{% endfor %}
+
+<nav>
+    <ul class="pager clearfix">
+    {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+            {% capture previousUrl %}{{ site.baseurl }}{% endcapture %}
+        {% else %}
+            {% capture previousUrl %}{{ site.baseurl }}/page{{ paginator.previous_page }}{% endcapture %}
+        {% endif %}
+        <li class="previous">
+            <a rel="prev" href="{{ previousUrl }}/">← Newer posts</a>
+        </li>
+    {% endif %}
+    {% if paginator.next_page %}
+        <li class="next">
+            <a rel="next" href="/page{{ paginator.next_page }}/">Older posts →</a>
+        </li>
+    {% endif %}
+    </ul>
+</nav>

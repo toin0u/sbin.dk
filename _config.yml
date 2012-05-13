@@ -1,0 +1,34 @@
+# VARIABLES
+# ---------
+name:           sbin.dk
+url:            http://sbin.dk
+description:    to_define
+keywords:       to_define
+rss:            "sbin's blog"
+author:         Antoine Corcy
+email:          contact@sbin.dk
+copyright:      "&copy; 2012"
+# ---------
+github:         https://github.com/toin0u
+twitter:        https://twitter.com/toin0u
+googleplus:     https://plus.google.com/100161090014693834503/
+linkedin:       http://www.linkedin.com/
+facebook:       https://facebook.com/toin0u
+tumblr:         http://dkfr.tumblr.com/
+lastfm:         http://last.fm/user/ackorea
+# ---------
+ga:             to_define
+
+
+# JEKYLL
+# ---------
+safe:       false
+permalink:  /:year/:month/:day/:title/
+pygments:   true
+paginate:   3
+markdown:   rdiscount
+
+
+# PLUGINS
+# -------
+lessc: lessc --yui-compress
