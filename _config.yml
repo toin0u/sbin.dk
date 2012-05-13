@@ -22,7 +22,6 @@ ga:             to_define
 
 # JEKYLL
 # ---------
-safe:       false
 permalink:  /:year/:month/:day/:title/
 pygments:   true
 paginate:   3
