@@ -15,7 +15,7 @@ I'm an avid [Debian][] and [Ubuntu Server][] user. Linux is a great OS to propul
 
 Website
 -------
-This is a simple and personnal static website generated using [Jekyll][] and [Jekyll sites][]. It's hosted by [Heroku][]. The website's entire source code is available at [GitHub][] (don't hesitate to fork and pull requests are always welcome). For more information about what powers this website, have a look at the [humans.txt](/humans.txt).
+This is a simple and personnal static website generated using [Jekyll][] and [Jekyll sites][]. It's hosted by [Meebox][] a good danish Cloud Server / VPS. The website's entire source code is available at [GitHub][] (don't hesitate to fork and pull requests are always welcome). For more information about what powers this website, have a look at the [humans.txt](/humans.txt).
 
 Contact
 -------
@@ -23,7 +23,7 @@ Feel free to message me via social medias or email me at <a href='mail&#116;&#11
 
 [Jekyll]: https://github.com/mojombo/jekyll
 [Jekyll sites]: https://github.com/mojombo/jekyll/wiki/Sites
-[Heroku]: http://www.heroku.com/
+[Meebox]: https://meebox.net/
 [Github]: https://github.com/toin0u/sbin.dk
 [Html5Boilerplate]: http://html5boilerplate.com/
 [Twitter Bootstrap]: http://twitter.github.com/bootstrap/
