@@ -8,17 +8,23 @@
 </div>
 <footer>
     //
-    <time datetime="{{ page.date | date_to_string }}" itemprop="datePublished">
+    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date_to_long_string }}
     </time>
     //
     <span itemprop="keywords">
+    {% if page.category %}
         <a rel="category" class="category" href="/categories/#{{ page.category | cgi_escape }}">{{ page.category | capitalize}}</a>
+    {% else %}
+        No category
+    {% endif %}
     </span>
     //
     <span itemprop="keywords">
     {% for tag in page.tags %}
         <a rel="tag" class="tag" href="/tags/#{{ tag | cgi_escape }}">{{ tag | capitalize}}</a>{% unless page.tags.last == tag %}, {% endunless %}
+    {% else %}
+        No tags
     {% endfor %}
     </span>
 </footer>
