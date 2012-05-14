@@ -2,9 +2,9 @@
 # ---------
 name:           sbin.dk
 url:            http://sbin.dk
-description:    to_define
-keywords:       to_define
-rss:            "sbin's blog"
+description:    "Personal blog of a web developer in Copenhagen"
+keywords:       "PHP5, Symfony2, SQL, NoSQL, jQuery, NodeJS, LESS, NginX, HTML5, CSS3, Debian, Ubuntu, Mac OS X"
+rss:            "sbin.dk blog feed"
 author:         Antoine Corcy
 email:          contact@sbin.dk
 copyright:      "&copy; 2012"
@@ -22,12 +22,12 @@ ga:             to_define
 
 # JEKYLL
 # ---------
-permalink:  /:year/:month/:day/:title/
-pygments:   true
-paginate:   3
-markdown:   rdiscount
+permalink:      /:year/:month/:day/:title/
+pygments:       true
+paginate:       3
+markdown:       rdiscount
 
 
 # PLUGINS
 # -------
-lessc: lessc --yui-compress
+lessc:          lessc --yui-compress
