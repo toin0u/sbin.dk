@@ -9,7 +9,7 @@ title: Welcome
     {% include post.html %}
 </article>
 {% endfor %}
-
+{% if paginator.previous_page or paginator.next_page %}
 <nav>
     <ul class="pager clearfix">
     {% if paginator.previous_page %}
@@ -29,3 +29,4 @@ title: Welcome
     {% endif %}
     </ul>
 </nav>
+{% endif %}
