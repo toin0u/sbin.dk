@@ -8,6 +8,8 @@
 </div>
 <footer>
     //
+    <a href="{{ site.githubsource }}/blob/master/_posts/{{ page.date | date:'%Y-%m-%d' }}-{{ page.url | split:'/' | last }}.md">PR</a>
+    //
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date_to_long_string }}
     </time>
