@@ -98,9 +98,9 @@ sub { bottom: -0.25em; }
    Lists
    ========================================================================== */
 
-ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+ul, ol { margin: 0; padding: 0; list-style: none; list-style-image: none; }
 dd { margin: 0 0 0 40px; }
-nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+nav ul, nav ol { }
 
 
 /* =============================================================================
@@ -241,8 +241,7 @@ a {
 
 header {
   h1 { margin-bottom: 0; font-size: 34px; }
-  ul { margin: 0; padding: 0; }
-  li { list-style: none; display: inline; }
+  li { display: inline; }
 }
 
 article, #main { 
@@ -254,7 +253,7 @@ article, #main {
 footer {
   ul, p { text-align: right; margin: 0; }
   p { margin-bottom: 20px; }
-  li { list-style: none; display: inline; }
+  li { display: inline; }
 }
 
 nav {
@@ -289,7 +288,7 @@ code { padding: 2px 4px; color: @codeInlineColor; background-color: @codeBackgro
 
 /* Tags & categories list */
 #tags-list, #categories-list {
-  list-style: none; padding: 0; margin: 0; border: 1px solid rgba(0,0,0,.15);
+  border: 1px solid rgba(0,0,0,.15);
   background-color: @codeBackgroundColor; border: 1px solid @codeBorderColor; // fallback for IE7-8
   li {
     float: left; margin-left: 0.5em;
@@ -299,15 +298,9 @@ code { padding: 2px 4px; color: @codeInlineColor; background-color: @codeBackgro
   }
 }
 
-#main section {
-  ul { list-style: none; margin: 0; padding: 0; }
-  time { margin-right: 10px; width: 150px; float:left; display:block; }
-}
-
-/* Archives */
-.archive {
-  list-style: none; margin: 0; padding: 0;
-  time { margin-right: 10px; width: 150px; float:left; display:block; }
+/* Posts & archives */
+#main section, .archive {
+  time { margin-right: 10px; width: 150px; float: left; display: block; }
 }
 
 
