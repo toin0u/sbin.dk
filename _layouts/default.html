@@ -22,21 +22,15 @@
             <li><a href="{{ site.twitter }}">twitter</a> &middot;</li>
             <li><a href="{{ site.googleplus }}">google+</a> &middot;</li>
             <li><a href="{{ site.linkedin }}">linkedin</a> &middot;</li>
-            <li><a href="{{ site.facebook }}">facebook</a> &middot;</li>
-            <li><a href="{{ site.tumblr }}">tumblr</a> &middot;</li>
-            <li><a href="{{ site.lastfm }}">lastfm</a></li>
+            <li><a href="{{ site.symfony }}">symfony</a> &middot;</li>
+            <li><a href="{{ site.facebook }}">facebook</a></li>
         </ul>
         <p>
             Powered with <a href="http://jekyllrb.com/">Jekyll</a> and hosted by <a href="https://meebox.net/">Meebox</a>
             {{ site.copyright }}
         </p>
     </footer>
-    <!--
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/static/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
-    <script src="/static/js/plugins.js"></script>
-    <script src="/static/js/script.js"></script>
-    //-->
+    {% include js.html %}
     {% include ga.html %}
 </body>
 </html>

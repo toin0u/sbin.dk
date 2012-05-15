@@ -21,7 +21,9 @@ This is a simple and personnal static website generated using [Jekyll][] and [Je
 
 Contact
 -------
-Feel free to message me via social medias or email me at <a href='mail&#116;&#111;&#58;contact&#64;&#115;%6&#50;i%6E&#46;%&#54;&#52;%&#54;B'>con&#116;&#97;c&#116;&#64;sbin&#46;dk</a>
+Feel free to message me via social medias or email me at <a href='mail&#116;&#111;&#58;contact&#64;&#115;%6&#50;i%6E&#46;%&#54;&#52;%&#54;B'>con&#116;&#97;c&#116;&#64;sbin&#46;dk</a>.
+
+I'm also present in [lastfm][], [tumblr][] and [pinterest][].
 
 [Jekyll]: https://github.com/mojombo/jekyll
 [Jekyll sites]: https://github.com/mojombo/jekyll/wiki/Sites
@@ -51,3 +53,6 @@ Feel free to message me via social medias or email me at <a href='mail&#116;&#11
 [Memcached]: http://memcached.org/
 [Varnish]: https://www.varnish-cache.org/
 [NodeJS]: http://www.nodejs.org/
+[lastfm]: {{ site.lastfm }}
+[tumblr]: {{ site.tumblr }}
+[pinterest]: {{ site.pinterest }}
