@@ -2,8 +2,8 @@
 # ---------
 name:           sbin.dk
 url:            http://sbin.dk
-description:    "Personal blog of a web developer in Copenhagen"
-keywords:       "PHP5, Symfony2, SQL, NoSQL, jQuery, NodeJS, LESS, NginX, HTML5, CSS3, Debian, Ubuntu, Mac OS X"
+description:    "Personal english blog of a french web developer in Copenhagen from South Korea :)"
+keywords:       "PHP5, Symfony2, MySQL, NoSQL, jQuery, NodeJS, LESS, NginX, HTML5, CSS3, Linux, Debian, Ubuntu Server, Mac OS X"
 rss:            "sbin.dk blog feed"
 author:         Antoine Corcy
 email:          contact@sbin.dk
