@@ -25,6 +25,7 @@ ga:             UA-31694981-1
 
 # JEKYLL
 # ---------
+exclude:        [Rakefile]
 permalink:      /:year/:month/:day/:title/
 pygments:       true
 paginate:       3
