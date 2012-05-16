@@ -45,6 +45,7 @@ task :post do
         post.puts "change_frequency: weekly"
         post.puts "priority: 0.8"
         post.puts "published: true"
+        post.puts "comments: true"
         post.puts "date: #{fulldate}"
         post.puts "title: #{title}"
         post.puts "category: "

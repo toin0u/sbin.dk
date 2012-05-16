@@ -4,4 +4,24 @@ layout: default
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     {% include post.html %}
+    <section class="comments">
+    {% if page.comments %}
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            var disqus_shortname  = '{{ site.disqus_id }}';
+            var disqus_developer  = {{ site.disqus_dev }};
+            var disqus_identifier = '{{ page.url }}';
+            var disqus_url        = '{{ site.url }}{{ page.url }}';
+            var disqus_title      = '{{ page.title }}';
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    {% else %}
+        Comments are closed.
+    {% endif %}
+    </section>
 </article>

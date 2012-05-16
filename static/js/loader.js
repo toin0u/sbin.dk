@@ -1,10 +1,11 @@
-/*  
-    Load scripts in parallel but execute in order 
+/*
+    Load scripts in parallel but execute in order
     @link http://headjs.com
 */
 
 head.js(
     { plugins: "/static/js/plugins.js" },
+    { scripts: "/static/js/scripts.js" },
     { twitter: "/static/js/twitter.js" },
     function() {
         head.js(

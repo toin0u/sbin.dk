@@ -3,6 +3,7 @@ layout: post
 change_frequency: weekly
 priority: 0.8
 published: true
+comments: true
 date: 2012-05-13 00:00:00
 title: Hello world!
 category: diverse
