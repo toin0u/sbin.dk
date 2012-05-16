@@ -7,7 +7,6 @@ keywords:       "PHP5, Symfony2, MySQL, NoSQL, jQuery, NodeJS, LESS, NginX, HTML
 rss:            "sbin.dk blog feed"
 author:         Antoine Corcy
 email:          contact@sbin.dk
-copyright:      "&copy; 2012"
 # ---------
 github:         https://github.com/toin0u
 githubsource:   https://github.com/toin0u/sbin.dk
