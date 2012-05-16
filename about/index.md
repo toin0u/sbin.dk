@@ -25,7 +25,7 @@ Contact
 -------
 Feel free to message me via social medias or email me at <{{ site.email }}>.
 
-I'm also present in [lastfm][], [tumblr][] and [pinterest][].
+I'm also present on [google+][], [symfony connect][], [lastfm][], [tumblr][] and [pinterest][].
 
 [SEO]: http://en.wikipedia.org/wiki/Search_engine_optimization
 [SERP]: http://en.wikipedia.org/wiki/Search_engine_results_page
@@ -57,6 +57,8 @@ I'm also present in [lastfm][], [tumblr][] and [pinterest][].
 [Memcached]: http://memcached.org/
 [Varnish]: https://www.varnish-cache.org/
 [NodeJS]: http://www.nodejs.org/
+[google+]: {{ site.googleplus }}
+[symfony connect]: {{ site.symfony }}
 [lastfm]: {{ site.lastfm }}
 [tumblr]: {{ site.tumblr }}
 [pinterest]: {{ site.pinterest }}
