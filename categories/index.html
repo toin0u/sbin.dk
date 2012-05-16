@@ -5,30 +5,33 @@ priority: 0.7
 title: List of categories
 ---
 
-<h2>{{ page.title }}</h2>
-<ul id="categories-list" class="clearfix">
-    {% for category in site.categories %}
-        <li>
-            <a class="category" href="#{{ category[0] | cgi_escape }}">{{ category[0] | capitalize }}
-            <span class="size" title="number of posts">{{ category[1].size }}</span></a>
-        </li>
-    {% endfor %}
-</ul>
-
-{% for category in site.categories %}
-<section id="{{ category[0] | cgi_escape }}">
-    <h3>{{ category[0] | capitalize }}</h3>
-    <ul>
-    {% for post in category[1] %}
-        {% if post.title != null %}
-            <li>
-                <time datetime="{{ post.date | date_to_xmlschema }}">
-                    &raquo; {{ post.date | date_to_long_string }}
-                </time>
-                <a href="{{ post.url }}">{{ post.title | capitalize }}</a>
+<h2 itemprop="headline">{{ page.title }}</h2>
+{% if site.categories != empty %}
+    <ul id="categories-list" class="clearfix" itemscope itemtype="http://schema.org/BlogPosting">
+        {% for category in site.categories %}
+            <li itemprop="name">
+                <a class="category" href="#{{ category[0] | cgi_escape }}" itemprop="url">{{ category[0] | capitalize }}
+                <span class="size" title="number of posts" itemprop="contentRating">{{ category[1].size }}</span></a>
             </li>
-        {% endif %}
-    {% endfor %}
+        {% endfor %}
     </ul>
-</section>
-{% endfor %}
+    {% for category in site.categories %}
+    <section id="{{ category[0] | cgi_escape }}" imtemprop="blogPosts">
+        <h3 itemprop="name">{{ category[0] | capitalize }}</h3>
+        <ul itemscope itemtype="http://schema.org/BlogPosting">
+        {% for post in category[1] %}
+            {% if post.title != null %}
+                <li itemprop="name">
+                    <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+                        &raquo; {{ post.date | date_to_long_string }}
+                    </time>
+                    <a href="{{ post.url }}" itemprop="url">{{ post.title | capitalize }}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    </section>
+    {% endfor %}
+{% else %}
+    <span itemprop="text">No categories</span>
+{% endif %}

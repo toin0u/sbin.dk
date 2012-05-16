@@ -29,35 +29,36 @@
     <script src="/static/js/libs/head-0.96.min.js"></script>
     <script src="/static/js/loader.js"></script>
 </head>
-<body>
-    <header>
-        <h1>// <a href="{{ site.url }}">{{ site.name }}</a></h1>
-        <ul>
-            <li><a href="/">Home</a></li> &middot;
-            <li><a href="/about/">About</a></li> &middot;
-            <li><a href="/categories/">Categories</a></li> &middot;
-            <li><a href="/tags/">Tags</a></li> &middot;
-            <li><a href="/archives/">Archives</a></li>
+<body itemscope itemtype="http://schema.org/Blog">
+    <header itemscope itemtype="http://schema.org/WebPage">
+        <h1 itemprop="headline">// <a rel="bookmark" href="{{ site.url }}" itemprop="url">{{ site.name }}</a></h1>
+        <ul itemprop="breadcrumb">
+            <li><a href="/" itemprop="headline url">Home</a></li> &middot;
+            <li itemscope itemtyp="http://schema.org/AboutPage"><a href="/about/" itemprop="url">About</a></li> &middot;
+            <li itemscope itemtyp="http://schema.org/CollectionPage"><a href="/categories/" itemprop="url">Categories</a></li> &middot;
+            <li itemscope itemtyp="http://schema.org/CollectionPage"><a href="/tags/" itemprop="url">Tags</a></li> &middot;
+            <li itemscope itemtyp="http://schema.org/CollectionPage"><a href="/archives/" itemprop="url">Archives</a></li>
         </ul>
-        <div>
+        <div itemprop="text">
             Tweet: 
             <span id="tweets">loading the last tweet...</span>
         </div>
     </header>
-    <div id="main" role="main">
+    <div id="main" role="main" itemscope itemtype="http://schema.org/Blog">
         {{ content }}
     </div>
-    <footer>
-        <ul>
-            <li><a href="{{ site.twitter }}">Twitter</a></li> &middot;
-            <li><a href="{{ site.github }}">Github</a></li> &middot;
-            <li><a href="{{ site.facebook }}">Facebook</a></li> &middot;
-            <li><a href="{{ site.linkedin }}">Linkedin</a></li> &middot;
-            <li><a href="/rss.xml">RSS</a></li>
+    <footer itemscope itemtype="http://schema.org/WebPage">
+        <ul itemprop="breadcrumb">
+            <li><a rel="nofollow" href="{{ site.twitter }}" itemprop="url">Twitter</a></li> &middot;
+            <li><a rel="nofollow" href="{{ site.github }}" itemprop="url">Github</a></li> &middot;
+            <li><a rel="nofollow" href="{{ site.facebook }}" itemprop="url">Facebook</a></li> &middot;
+            <li><a rel="nofollow" href="{{ site.linkedin }}" itemprop="url">Linkedin</a></li> &middot;
+            <li itemscope itemtyp="http://schema.org/CollectionPage"><a rel="nofollow" href="/rss.xml" itemprop="url">RSS</a></li>
         </ul>
-        <p>
-            Powered by <a href="http://jekyllrb.com/">Jekyll</a> &amp; hosted by <a href="https://meebox.net/">Meebox</a>
-            &copy; <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">2012</a>
+        <p itemprop="copyrightHolder">
+            Powered by <a rel="nofollow" href="http://jekyllrb.com/" itemprop="mentions url">Jekyll</a> &amp;
+            hosted by <a rel="nofollow" href="https://meebox.net/" itemprop="mentions url">Meebox</a>
+            &copy; <a rel="nofollow" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" itemprop="copyrightYear">2012</a>
         </p>
     </footer>
 </body>

@@ -1,4 +1,4 @@
-<header>
+<header itermprop="name">
     <h2>
         <a rel="bookmark" href="{{ page.url }}" itemprop="headline url">{{ page.title | capitalize }}</a>
     </h2>
@@ -6,9 +6,9 @@
 <div class="content" itemprop="articleBody">
     {{ content }}
 </div>
-<footer>
+<footer itermprop="description">
     //
-    <a href="{{ site.githubsource }}/blob/master/_posts/{{ page.date | date:'%Y-%m-%d' }}-{{ page.url | split:'/' | last }}.md">PR</a>
+    <a href="{{ site.githubsource }}/blob/master/_posts/{{ page.date | date:'%Y-%m-%d' }}-{{ page.url | split:'/' | last }}.md" itemprop="discussionUrl">PR</a>
     //
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date_to_long_string }}
@@ -16,17 +16,17 @@
     //
     <span itemprop="keywords">
     {% if page.category %}
-        <a rel="category" class="category" href="/categories/#{{ page.category | cgi_escape }}">{{ page.category | capitalize}}</a>
+        <a rel="category" class="category" href="/categories/#{{ page.category | cgi_escape }}" itemprop="url">{{ page.category | capitalize}}</a>
     {% else %}
-        No category
+        <span itemprop="text">No category</span>
     {% endif %}
     </span>
     //
     <span itemprop="keywords">
     {% for tag in page.tags %}
-        <a rel="tag" class="tag" href="/tags/#{{ tag | cgi_escape }}">{{ tag | capitalize}}</a>{% unless page.tags.last == tag %}, {% endunless %}
+        <a rel="tag" class="tag" href="/tags/#{{ tag | cgi_escape }}" itemprop="url">{{ tag | capitalize}}</a>{% unless page.tags.last == tag %}, {% endunless %}
     {% else %}
-        No tags
+        <span itemprop="text">No tags</span>
     {% endfor %}
     </span>
 </footer>
