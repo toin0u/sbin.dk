@@ -12,8 +12,8 @@ title: Welcome
 </article>
 {% endfor %}
 {% if paginator.previous_page or paginator.next_page %}
-<nav>
-    <ul class="pager clearfix">
+<nav itemscope itemtype="http://schema.org/WebPage">
+    <ul class="pager clearfix" itemprop="breadcrumb">
     {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
             {% capture previousUrl %}{{ site.baseurl }}{% endcapture %}
@@ -21,12 +21,12 @@ title: Welcome
             {% capture previousUrl %}{{ site.baseurl }}/page{{ paginator.previous_page }}{% endcapture %}
         {% endif %}
         <li class="previous">
-            <a rel="prev" href="{{ previousUrl }}/">← Newer posts</a>
+            <a rel="prev" href="{{ previousUrl }}/" itemprop="url">← Newer posts</a>
         </li>
     {% endif %}
     {% if paginator.next_page %}
         <li class="next">
-            <a rel="next" href="/page{{ paginator.next_page }}/">Older posts →</a>
+            <a rel="next" href="/page{{ paginator.next_page }}/" itemprop="url">Older posts →</a>
         </li>
     {% endif %}
     </ul>
