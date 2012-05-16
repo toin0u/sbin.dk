@@ -23,7 +23,7 @@ All content is under Creative Commons [BY-NC-SA 3.0][] license.
 
 Contact
 -------
-Feel free to message me via social medias or email me at <a href='mail&#116;&#111;&#58;contact&#64;&#115;%6&#50;i%6E&#46;%&#54;&#52;%&#54;B'>con&#116;&#97;c&#116;&#64;sbin&#46;dk</a>.
+Feel free to message me via social medias or email me at <{{ site.email }}>.
 
 I'm also present in [lastfm][], [tumblr][] and [pinterest][].
 

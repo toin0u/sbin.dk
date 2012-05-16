@@ -31,21 +31,21 @@ task :post do
         abort("rake aborted: #{dirname} directory is not found!")
     end
     date = Time.now.strftime('%F')
-    #fulldate = Time.now.strftime('%F %T')
+    fulldate = Time.now.strftime('%F %T')
     slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
     filename = "#{date}-#{slug}.md"
     fullpath = File.join(dirname, filename)
     if File.exist?(fullpath)
         abort("rake aborted: #{fullpath} already exists!")
     end
-    puts "Creating a new post file called #{filename} with YAML front matter ..."
+    puts "Creating a new post file called #{filename} with YAML front matter..."
     File.open(fullpath, 'w') do |post|
         post.puts "---"
         post.puts "layout: post"
         post.puts "change_frequency: weekly"
         post.puts "priority: 0.8"
-        post.puts "published: false"
-        #post.puts "date: #{fulldate}"
+        post.puts "published: true"
+        post.puts "date: #{fulldate}"
         post.puts "title: #{title}"
         post.puts "category: "
         post.puts "tags: "
