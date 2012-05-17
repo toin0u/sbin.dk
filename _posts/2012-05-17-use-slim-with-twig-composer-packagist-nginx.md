@@ -37,7 +37,7 @@ I enjoy to test PHP framework and I was looking for a light PHP framwork to prot
 
 #### Let's create index.php and template files.
 * % `mkdir -p app/templates`
-* % `vi app/index.php
+* % `vi app/index.php`
 {% highlight php %}
 <?php
     require '../vendor/autoload.php';
