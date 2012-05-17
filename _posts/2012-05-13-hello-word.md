@@ -6,6 +6,7 @@ published: true
 comments: true
 date: 2012-05-13 00:00:00
 title: Hello world!
+summary: 
 category: diverse
 tags: 
 ---

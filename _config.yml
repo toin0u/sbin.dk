@@ -20,6 +20,7 @@ lastfm:         http://last.fm/user/ackorea
 pinterest:      https://pinterest.com/toin0u/
 # ---------
 ga:             UA-31694981-1
+summary:        true
 # ---------
 disqus_id:      sbindk
 disqus_dev:     0
@@ -30,7 +31,7 @@ disqus_dev:     0
 exclude:        [README.md, Rakefile]
 permalink:      /:year/:month/:day/:title/
 pygments:       true
-paginate:       3
+paginate:       5
 markdown:       rdiscount
 
 

@@ -7,7 +7,11 @@ title: Welcome
 
 {% for page in paginator.posts %}
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-    {% capture content %}{{ page.content }}{% endcapture %}
+    {% if page.summary and site.summary %}
+        {% capture content %}{{ page.summary }}{% endcapture %}
+    {% else %}
+        {% capture content %}{{ page.content }}{% endcapture %}
+    {% endif %}
     {% include post.html %}
 </article>
 {% endfor %}

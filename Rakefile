@@ -48,6 +48,7 @@ task :post do
         post.puts "comments: true"
         post.puts "date: #{fulldate}"
         post.puts "title: #{title}"
+        post.puts "summary: "
         post.puts "category: "
         post.puts "tags: "
         post.puts "---"
