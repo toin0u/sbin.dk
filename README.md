@@ -21,8 +21,8 @@ Configuration
 2. Change line 57 in `Rakefile` if you don't use [Sublime Text 2](http://www.sublimetext.com/)
 
 
-Use
----
+Usage
+-----
 1. See available commands, `rake -T`
 2. Make a new post, `rake post "Hello world!"`
     * change `change_frequency` and `priority` if needed
@@ -35,6 +35,7 @@ Use
 Release
 -------
 Let's push changes to your repository **and** your VPS.
+
 1. `git add .`
 2. `git commit -m "Added: my first post"`
 3. `rake release`
