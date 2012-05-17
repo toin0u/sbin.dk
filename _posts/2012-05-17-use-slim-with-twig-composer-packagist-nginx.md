@@ -14,14 +14,14 @@ tags: slim twig composer packagist nginx
 I enjoy to test PHP framework and I was looking for a light PHP framwork to prototype and develop a small project. I will write a little post to show how easy is to start with these tools. But first let's present them.
 
 * [Slim Framework](http://www.slimframework.com/) is a micro PHP framework which is everything you need and nothing you don't.
-* [Twig](http://twig.sensiolabs.org/) is an easy and powerfull template engine used in [Symfony2]()
-* [Composer](http://getcomposer.org/) is the best dependency manager for PHP for now.
+* [Twig](http://twig.sensiolabs.org/) is an easy and powerfull template engine used in [Symfony2](http://symfony.com/).
+* [Composer](http://getcomposer.org/) is the best dependency manager for PHP.
 * [Packagist](http://packagist.org/) aggregates PHP packages installable with Composer.
 
-#### Make the working directory in `/var/www/` and install packages with composer.
-* % mkdir /var/www/slim
-* % cd !!:1
-* % vi composer.json
+#### Make the working directory in /var/www/ and install packages with composer.
+* % `mkdir /var/www/slim`
+* % `cd !!:1`
+* % `vi composer.json`
 {% highlight json %}
 {
     "require": {
@@ -32,12 +32,12 @@ I enjoy to test PHP framework and I was looking for a light PHP framwork to prot
     }
 }
 {% endhighlight %}
-* % curl -s http://getcomposer.org/installer | php
-* % php composer.phar install
+* % `curl -s http://getcomposer.org/installer | php`
+* % `php composer.phar install`
 
-#### Let's create `index.php` and `templates`.
-* % mkdir -p app/templates
-* % vi app/index.php
+#### Let's create index.php and template files.
+* % `mkdir -p app/templates`
+* % `vi app/index.php
 {% highlight php %}
 <?php
     require '../vendor/autoload.php';
@@ -65,10 +65,13 @@ I enjoy to test PHP framework and I was looking for a light PHP framwork to prot
     
     $app->run();
 {% endhighlight %}
-* % echo "\{\{ foo }}" > app/templates/index.twig.html
-* % echo "Hello \{\{ name }}!" > app/templates/hello.twig.html
+* % `echo "` \{\{ foo }} `" > app/templates/index.twig.html`
+* % `echo "` Hello \{\{ name }}! `" > app/templates/hello.twig.html`
 
-#### Add `127.0.0.1 slim.dev` in your `/etc/hosts` and configure NginX.
+#### Add 127.0.0.1 slim.dev in your /etc/hosts.
+* % `echo "127.0.0.1 slim.dev" | sudo tee -a /etc/hosts`
+
+#### Configure NginX.
 {% highlight nginx %}
     server_name slim.dev;
     root /var/www/slim/app;
