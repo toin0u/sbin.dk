@@ -19,9 +19,9 @@ title: Archives
         {% endunless %}
         <li itemprop="name">
             <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-                &raquo; {{ post.date | date_to_long_string }}
+                {{ post.date | date_to_long_string }}
             </time>
-            <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title | capitalize }}</a>
+            &raquo; <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title | capitalize }}</a>
         </li>
     {% endfor %}
     </ul>

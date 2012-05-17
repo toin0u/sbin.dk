@@ -23,9 +23,9 @@ title: List of tags
             {% if post.title != null %}
                 <li itemprop="name">
                     <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-                        &raquo; {{ post.date | date_to_long_string }}
+                        {{ post.date | date_to_long_string }}
                     </time>
-                    <a href="{{ post.url }}" itemprop="url">{{ post.title | capitalize}}</a>
+                    &raquo; <a href="{{ post.url }}" itemprop="url">{{ post.title | capitalize}}</a>
                 </li>
             {% endif %}
         {% endfor %}
