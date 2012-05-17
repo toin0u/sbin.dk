@@ -229,7 +229,7 @@ td { vertical-align: top; }
 @import "_pygments/github.less";
 
 /* Global */
-body { margin: 0 auto; max-width: 800px; padding: 0 20px; text-align: justify; }
+body { margin: 0 auto; max-width: 800px; padding: 0 20px; }
 
 a {
   color: @linkColor;
@@ -278,7 +278,7 @@ nav {
 }
 
 /* Inline code */
-code { padding: 2px 4px; color: @codeInlineColor; background-color: @codeBackgroundColor; border: 1px solid @codeBorderColor; }
+code { padding: 0 4px; color: @codeInlineColor; background-color: @codeBackgroundColor; border: 1px solid @codeBorderColor; }
 
 /* Pygments code block */
 .highlight {
@@ -297,7 +297,7 @@ code { padding: 2px 4px; color: @codeInlineColor; background-color: @codeBackgro
     code {
       position: absolute: left: 5px; top: 5px; padding: 0;
       color: inherit; background-color: transparent; border: 0;
-      font-size: 0.8em;
+      .small
     }
   }
 }
