@@ -19,9 +19,9 @@ I enjoy to test PHP framework and I was looking for a light PHP framwork to prot
 * [Packagist](http://packagist.org/) aggregates PHP packages installable with Composer.
 
 #### Make the working directory in /var/www/ and install packages with composer.
-* \# `mkdir /var/www/slim`
-* \# `cd !!:1`
-* \# `vi composer.json`
+* $ `mkdir /var/www/slim`
+* $ `cd !!:1`
+* $ `vi composer.json`
 {% highlight json %}
 {
     "require": {
@@ -32,12 +32,12 @@ I enjoy to test PHP framework and I was looking for a light PHP framwork to prot
     }
 }
 {% endhighlight %}
-* \# `curl -s http://getcomposer.org/installer | php`
-* \# `php composer.phar install`
+* $ `curl -s http://getcomposer.org/installer | php`
+* $ `php composer.phar install`
 
 #### Let's create index.php and template files.
-* \# `mkdir -p app/templates`
-* \# `vi app/index.php`
+* $ `mkdir -p app/templates`
+* $ `vi app/index.php`
 {% highlight php %}
 <?php
     require '../vendor/autoload.php';
@@ -65,11 +65,11 @@ I enjoy to test PHP framework and I was looking for a light PHP framwork to prot
     
     $app->run();
 {% endhighlight %}
-* \# `echo "` \{\{ foo }} `" > app/templates/index.twig.html`
-* \# `echo "` Hello \{\{ name }}! `" > app/templates/hello.twig.html`
+* $ `echo "` \{\{ foo }} `" > app/templates/index.twig.html`
+* $ `echo "` Hello \{\{ name }}! `" > app/templates/hello.twig.html`
 
 #### Add 127.0.0.1 slim.dev in your /etc/hosts.
-* \# `echo "127.0.0.1 slim.dev" | sudo tee -a /etc/hosts`
+* $ `echo "127.0.0.1 slim.dev" | sudo tee -a /etc/hosts`
 
 #### Configure NginX.
 {% highlight nginx %}
