@@ -246,7 +246,9 @@ header {
 
 article, #main { 
   margin-bottom: 10px;
-  ul, ol { padding-left: 40px; }
+  .content { 
+    ul, ol { padding-left: 40px; }
+  }
   ul { list-style: disc; }
   ol { list-style: decimal; }
   h2, h3, h4 { margin-bottom: 0; }
@@ -316,6 +318,7 @@ code { padding: 0 4px; color: @codeInlineColor; background-color: @codeBackgroun
 
 /* Posts & archives */
 #main section, .archive {
+  ul, ol { padding-left: 40px; }
   time { margin-right: 10px; width: 150px; float: left; display: block; }
 }
 

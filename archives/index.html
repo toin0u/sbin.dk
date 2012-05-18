@@ -5,6 +5,7 @@ priority: 0.7
 title: Archives
 ---
 
+<section class="archive" itemscope itemtype="http://schema.org/BlogPosting">
 <h2 itemprop="headline">{{ page.title }}</h2>
 {% if site.posts != empty %}
     {% for post in site.posts %}
@@ -15,7 +16,7 @@ title: Archives
                 </ul>
             {% endunless %}
             <h3 id="{{ year }}" itemprop="dateCreated">{{ year }}</h3>
-            <ul class="archive" itemscope itemtype="http://schema.org/BlogPosting">
+            <ul>
         {% endunless %}
         <li itemprop="name">
             <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -28,3 +29,4 @@ title: Archives
 {% else %}
     <span itemprop="text">No posts</span>
 {% endif %}
+</section>

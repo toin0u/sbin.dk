@@ -16,7 +16,7 @@ title: List of categories
         {% endfor %}
     </ul>
     {% for category in site.categories %}
-    <section id="{{ category[0] | cgi_escape }}" imtemprop="blogPosts">
+    <section id="{{ category[0] | cgi_escape }}" itemprop="blogPosts">
         <h3 itemprop="name">{{ category[0] | capitalize }}</h3>
         <ul itemscope itemtype="http://schema.org/BlogPosting">
         {% for post in category[1] %}
