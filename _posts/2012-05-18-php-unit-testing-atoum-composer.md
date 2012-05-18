@@ -18,22 +18,26 @@ Well, phar file is great, really great which works very good. But I think it's m
 But let's suppose that you have more than atoum to install!
 
 #### Create the working directory and composer.json ([package](http://packagist.org/packages/mageekguy/atoum))
-* \# `mkdir ~/test-project`
-* \# `cd !!:1`
-* \# `vi composer.json`
+* $ `mkdir ~/test-project`
+* $ `cd !!:1`
+* $ `vi composer.json`
 {% highlight json %}
 {
     "require": {
         "mageekguy/atoum": "master-dev"
+    },
+
+    "config": {
+        "bin-dir": "bin/"
     }
 }
 {% endhighlight %}
-* \# `curl -s http://getcomposer.org/installer | php`
-* \# `php composer.phar install`
+* $ `curl -s http://getcomposer.org/installer | php`
+* $ `php composer.phar install`
 
 #### Create a simple class to test
-* \# `mkdir classes`
-* \# `vi classes/helloWorld.php`
+* $ `mkdir classes`
+* $ `vi classes/helloWorld.php`
 {% highlight php %}
 <?php
     namespace project;
@@ -53,8 +57,8 @@ But let's suppose that you have more than atoum to install!
 {% endhighlight %}
 
 #### Create helloWorld unit test class
-* \# `mkdir -p tests/units`
-* \# `vi !!:2/helloWorld.php`
+* $ `mkdir -p tests/units`
+* $ `vi !!:2/helloWorld.php`
 {% highlight php %}
 <?php
     namespace project\tests\units;
@@ -89,7 +93,7 @@ But let's suppose that you have more than atoum to install!
 {% endhighlight %}
 
 #### Let's run the test!
-* \# `./vendor/bin/atoum -d tests/units`
+* $ `./bin/atoum -d tests/units`
 {% highlight bash %}
 > PHP path: /opt/local/bin/php
 > PHP version:
