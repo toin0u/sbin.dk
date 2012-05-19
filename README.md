@@ -26,7 +26,7 @@ Installation
 ------------
 1. Fork this `https://github.com/toin0u/sbin.dk`
 2. Clone it
-3. Add a `deploy` remote to you VPS for instance
+3. Add a `deploy` remote to you VPS for instance ([deployment](https://github.com/mojombo/jekyll/wiki/Deployment))
 
 
 Configuration
