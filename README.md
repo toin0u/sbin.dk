@@ -19,6 +19,7 @@ Why to fork?
 * Build with Microformats
 * Possible to show posts' summary in front page
 * Disqus in posts and track comments with Google Analytics
+* Title, summary, category and tags update meta tags
 * Rakefile to automate tasks
 
 
@@ -32,7 +33,7 @@ Installation
 Configuration
 -------------
 1. Change `_config.yml` with your parameters
-2. Change line 58 in `Rakefile` if you don't use [Sublime Text 2](http://www.sublimetext.com/)
+2. Change line 58 in `Rakefile` if you don't use [Sublime Text 2](http://www.sublimetext.com/), I use [this](http://www.sublimetext.com/docs/2/osx_command_line.html).
 
 
 Usage
