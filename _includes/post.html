@@ -24,7 +24,7 @@
     //
     <span itemprop="keywords">
     {% for tag in page.tags %}
-        <a rel="tag" class="tag" href="/tags/#{{ tag | cgi_escape }}" itemprop="url">{{ tag | capitalize}}</a>{% unless page.tags.last == tag %}, {% endunless %}
+        <a rel="tag" class="tag" href="/tags/#{{ tag | cgi_escape }}" itemprop="url">{{ tag | capitalize }}</a>{% unless page.tags.last == tag %}, {% endunless %}
     {% else %}
         <span itemprop="text">No tags</span>
     {% endfor %}
