@@ -115,6 +115,8 @@ Success (1 test, 1/1 method, 7 assertions, 0 error, 0 exception) !
 #### Files structure
 {% highlight bash %}
 .
+├── bin
+│   └── atoum -> ../vendor/mageekguy/atoum/bin/atoum
 ├── classes
 │   └── helloWorld.php
 ├── composer.json
@@ -125,8 +127,6 @@ Success (1 test, 1/1 method, 7 assertions, 0 error, 0 exception) !
 │       └── testHelloWorld.php
 └── vendor
     ├── autoload.php
-    ├── bin
-    │   └── atoum -> ../mageekguy/atoum/bin/atoum
     ├── composer
     │   ├── ClassLoader.php
     │   ├── autoload_classmap.php
