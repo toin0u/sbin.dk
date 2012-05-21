@@ -23,24 +23,36 @@ This atoum plugin has so far the features below:
 3. Result will show up in a other tab in read-only.
 4. Result should be parsed with colors.
 5. Possibility to install the plugin via the [Package Control](http://wbond.net/sublime_packages/package_control).
+6. Light report in a panel
+7. Shortcut: `cmd+alt+s` on OSX or `ctrl+alt+a` on Linux and Windows: Test the current file
+8. Shortcut: `cmd+alt+d` on OSX or `ctrl+alt+d` on Linux and Windows: Test files in the current directory
 
 ### Configuration
-Once installed, browse the package and change `atoum.sublime-settings` with your parameters.
+Once installed, browse the package and change `atoum.sublime-settings` with your parameters. But it's better to add your own config file, just open the command panel, write `Atoum: User File Settings` and paste the configuration below with your parameters. Remember to restart Sublime Text 2.
+
+If you activate the **light report**, the test result will be shown in a **panel** not in a tab. This is very usefull when used with the shorcut to test quickly. It's close to the loop mode.
 {% highlight json %}
 {
     "php_command": "/opt/local/bin/php",
-    "atoum_phar_file": "/usr/local/bin/mageekguy.atoum.phar"
+    "atoum_phar_file": "/usr/local/bin/mageekguy.atoum.phar",
+    "use_light_report": true
 }
 {% endhighlight %}
 
 ### Screenshot
+Result in a tab:
 !['A simple Sublime Text 2 plugin for atoum, unit testing framework for php'](http://i.imgur.com/0dUgW.png)
+Result in a panel:
+!['A simple Sublime Text 2 plugin for atoum, unit testing framework for php'](http://i.imgur.com/0R2QD.png)
 
 ### Improvements
 * `atoum.py` in general (especially errors handler).
+* <del>Add light report mode</del>
 * Better result color parsing (it's just the standard diff parser at the moment).
 * Works on Mac OS X, not tested on Linux and Windows yet.
-* Possibility to bind shortcuts.
+* <del>Possibility to bind shortcuts.</del>
+* Reload user's configuration file without restart Sublime Text 2
+* A new way to parse colors in light report mode
 * ...
 
 This plugin will be soon available via the [Package Control](http://wbond.net/sublime_packages/package_control). I sent the [pull request](https://github.com/wbond/package_control_channel/pull/321).
