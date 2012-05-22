@@ -4,7 +4,7 @@
 */
 
 head.js(
-    { plugins: "/static/js/plugins.js" },
+    //{ plugins: "/static/js/plugins.js" },
     { scripts: "/static/js/scripts.js" },
     { twitter: "/static/js/twitter.js" },
     function() {

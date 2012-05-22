@@ -1,8 +1,8 @@
 <!doctype html>  
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->   
+<!--[if IE 7 ]> <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]> <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]> <html lang="en" class="no-js ie9"> <![endif]-->   
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
@@ -18,48 +18,48 @@
     <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
     <link href="/rss.xml" rel="alternate" title="RSS {{ site.rss }}" type="application/rss+xml">
     <link href="/atom.xml" rel="alternate" title="Atom {{ site.rss }}" type="application/atom+xml">
+    <link href="http://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="/static/css/style.css">
+    <script src="/static/js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+<body itemscope itemtype="http://schema.org/Blog">
+    <div id="container">
+        <header itemscope itemtype="http://schema.org/WebPage">
+            <h1 itemprop="headline">// <a rel="bookmark" href="/" itemprop="url">{{ site.name }}</a></h1>
+            <ul itemprop="breadcrumb">
+                <li itemscope itemtype="http://schema.org/AboutPage"><a href="/about/" itemprop="url">About</a></li> &middot;
+                <li itemscope itemtype="http://schema.org/CollectionPage"><a href="/categories/" itemprop="url">Categories</a></li> &middot;
+                <li itemscope itemtype="http://schema.org/CollectionPage"><a href="/tags/" itemprop="url">Tags</a></li> &middot;
+                <li itemscope itemtype="http://schema.org/CollectionPage"><a href="/archives/" itemprop="url">Archives</a></li>
+            </ul>
+            <div itemprop="text">
+                Tweet: 
+                <span id="tweets">loading the last tweet...</span>
+            </div>
+        </header>
+        <div id="main" role="main" itemscope itemtype="http://schema.org/Blog">
+            {{ content }}
+        </div>
+        <footer itemscope itemtype="http://schema.org/WebPage">
+            <ul itemprop="breadcrumb">
+                <li><a rel="nofollow" href="{{ site.twitter }}" itemprop="url">Twitter</a></li> &middot;
+                <li><a rel="nofollow" href="{{ site.github }}" itemprop="url">Github</a></li> &middot;
+                <li><a rel="nofollow" href="{{ site.linkedin }}" itemprop="url">Linkedin</a></li> &middot;
+                <li itemscope itemtype="http://schema.org/CollectionPage"><a href="/rss.xml" itemprop="url">RSS</a></li>
+            </ul>
+            <p itemprop="copyrightHolder">
+                &copy; {{ site.name }} <a rel="nofollow" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" itemprop="copyrightYear">2012</a> &middot;
+                Powered by <a rel="nofollow" href="http://jekyllrb.com/" itemprop="mentions url">Jekyll</a>
+            </p>
+        </footer>
+    </div>
     <script>
         var _gaq=[['_setAccount','{{ site.ga }}'],['_trackPageview']];
         (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
         g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
         s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
-    <script src="/static/js/libs/modernizr-2.5.3.min.js"></script>
     <script src="/static/js/libs/head-0.96.min.js"></script>
     <script src="/static/js/loader.js"></script>
-</head>
-<body itemscope itemtype="http://schema.org/Blog">
-    <header itemscope itemtype="http://schema.org/WebPage">
-        <h1 itemprop="headline">// <a rel="bookmark" href="{{ site.url }}" itemprop="url">{{ site.name }}</a></h1>
-        <ul itemprop="breadcrumb">
-            <li><a href="/" itemprop="headline url">Home</a></li> &middot;
-            <li itemscope itemtype="http://schema.org/AboutPage"><a href="/about/" itemprop="url">About</a></li> &middot;
-            <li itemscope itemtype="http://schema.org/CollectionPage"><a href="/categories/" itemprop="url">Categories</a></li> &middot;
-            <li itemscope itemtype="http://schema.org/CollectionPage"><a href="/tags/" itemprop="url">Tags</a></li> &middot;
-            <li itemscope itemtype="http://schema.org/CollectionPage"><a href="/archives/" itemprop="url">Archives</a></li>
-        </ul>
-        <div itemprop="text">
-            Tweet: 
-            <span id="tweets">loading the last tweet...</span>
-        </div>
-    </header>
-    <div id="main" role="main" itemscope itemtype="http://schema.org/Blog">
-        {{ content }}
-    </div>
-    <footer itemscope itemtype="http://schema.org/WebPage">
-        <ul itemprop="breadcrumb">
-            <li><a rel="nofollow" href="{{ site.twitter }}" itemprop="url">Twitter</a></li> &middot;
-            <li><a rel="nofollow" href="{{ site.github }}" itemprop="url">Github</a></li> &middot;
-            <li><a rel="nofollow" href="{{ site.facebook }}" itemprop="url">Facebook</a></li> &middot;
-            <li><a rel="nofollow" href="{{ site.linkedin }}" itemprop="url">Linkedin</a></li> &middot;
-            <li itemscope itemtype="http://schema.org/CollectionPage"><a href="/rss.xml" itemprop="url">RSS</a></li>
-        </ul>
-        <p itemprop="copyrightHolder">
-            Powered by <a rel="nofollow" href="http://jekyllrb.com/" itemprop="mentions url">Jekyll</a> &amp;
-            hosted by <a rel="nofollow" href="https://meebox.net/" itemprop="mentions url">Meebox</a>
-            &copy; <a rel="nofollow" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" itemprop="copyrightYear">2012</a>
-        </p>
-    </footer>
 </body>
 </html>

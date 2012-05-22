@@ -8,5 +8,3 @@ function disqus_config() {
         _gaq.push(['_trackEvent', 'Comment']);
     }];
 }
-
-

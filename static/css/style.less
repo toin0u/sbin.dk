@@ -32,7 +32,7 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+html, button, input, select, textarea { font-family: 'Maven Pro', sans-serif; color: #222; }
 
 body { margin: 0; font-size: 1em; line-height: 1.4; }
 
@@ -224,26 +224,65 @@ td { vertical-align: top; }
 @codeBackgroundColor: #f5f5f5;
 @codeBorderColor:     #ccc;
 @codeInlineColor:     @linkColor;
+@bodyBackground:      #eee;
+@containerBackgorund: #fff;
+@containerBorder:     #ccc;
+@containerShadow:     #cdcdcd;
+
+/* Mixins */
+.rounded-corners(@radius: 5px) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+       -o-border-radius: @radius;
+          border-radius: @radius;
+}
+
+.transition(@duration: 0.3s, @ease: ease-in) {
+  -webkit-transition: all @duration @ease;
+     -moz-transition: all @duration @ease;
+       -o-transition: all @duration @ease;
+          transition: all @duration @ease;
+}
+
+.box-shadow(@arguments) {
+  -webkit-box-shadow: @arguments;
+     -moz-box-shadow: @arguments;
+       -o-box-shadow: @arguments;
+          box-shadow: @arguments;
+}
 
 /* Hightlight */
 @import "_pygments/github.less";
 
 /* Global */
-body { margin: 0 auto; max-width: 800px; padding: 0 20px; }
+body { margin: 0 auto; width: 800px; max-width: 95%; background: @bodyBackground; }
 
+/* Global anchor */
 a {
-  color: @linkColor;
-  text-decoration: none;
+  color: @linkColor; text-decoration: none; .transition();
   &:visited { color: @linkColor; }
   &:hover, &:focus { color: @linkColorHover; }
   &:active { color: @linkColorHover; }
 }
 
+/* Main container */
+#container {
+  background-clip: padding-box;
+  background-color: @containerBackgorund;
+  border: 1px solid @containerBorder;
+  .rounded-corners();
+  .box-shadow(0 0 10px @containerShadow);
+  margin: 2% auto;
+  padding: 2%;
+}
+
+/* Main header */
 header {
-  h1 { margin-bottom: 0; font-size: 34px; }
+  h1 { margin: 0; font-size: 2.3em; }
   li { display: inline; }
 }
 
+/* Content */
 article, #main { 
   margin-bottom: 10px;
   .content { 
@@ -256,9 +295,10 @@ article, #main {
   img { max-width: 100%; height: auto; }
 }
 
+/* Footer */
 footer {
   ul, p { text-align: right; margin: 0; }
-  p { margin-bottom: 20px; }
+  p { margin-bottom: 0; }
   li { display: inline; }
 }
 
@@ -274,6 +314,7 @@ article {
   }
 }
 
+/* Pagination */
 nav {
   ul { display: block; margin-bottom: 10px; }
   li.previous a { float:left; }
@@ -288,10 +329,9 @@ code { padding: 0 4px; color: @codeInlineColor; background-color: @codeBackgroun
   position: relative;
   pre {
     //width: 100%;
-    display: block; padding: 5px 10px; overflow: auto; word-break: break-all;
-    white-space: pre; white-space: pre-wrap; background-color: @codeBackgroundColor;
-    border: 1px solid @codeBorderColor; // fallback for IE7-8
-    border: 1px solid rgba(0,0,0,.15); word-wrap: normal;
+    display: block; padding: 5px 10px; overflow: auto; word-break: break-all; word-wrap: normal;
+    background-color: @codeBackgroundColor;
+    border: 1px solid rgba(0,0,0,.15); border: 1px solid @codeBorderColor; // fallback for IE7-8
     // Add the syntax name above the code block
     code:before {
       content: attr(class); position: absolute; right: 5px; top: 5px;
@@ -320,9 +360,16 @@ code { padding: 0 4px; color: @codeInlineColor; background-color: @codeBackgroun
 
 /* Posts & archives */
 #main section, .archive {
-  ul, ol { padding-left: 40px; }
-  time { margin-right: 10px; width: 150px; float: left; display: block; }
+  ul, ol {
+    padding-left: 3%;
+    li { list-style: none; }
+  }
+
+  time { width: 150px; float: left; display: block; }
 }
+
+
+//footer > p { margin: 0; }
 
 
 

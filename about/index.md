@@ -2,7 +2,7 @@
 layout: default
 change_frequency: monthly
 priority: 0.5
-title: About me
+title: About
 ---
 
 Me
@@ -11,9 +11,9 @@ I'm Antoine Corcy and I'm web developer in Copenhagen / Denmark from France (I s
 
 As a primary backend developer, I use [PHP][] with different open-source databases like [MySQL][], [PostgreSQL][] and [MangoDB][]. To not reinvent the wheel, I mainly use an hight performance PHP framework, [Symfony2][], which includes [Doctrine2][] (ORM) and [Twig][] (template engine). However I think [FuelPHP][], [Kohana][] and [CodeIgniter][] are some great frameworks as well.
 
-What about unit tests ? As a PHP developer, I use [PHPUnit][] but I'm attracted to [atoum][], you should give a try!
+What about [unit tests][] ? As a PHP developer, I use [PHPUnit][] mostly but I'm attracted to [atoum][], you should give a try! When tests should drive the development, [Behat][] is a nice [BDD][] framework for PHP.
 
-I develop modules for different open-source CMS systems like [Wordpress][] and [Drupal][] when it's needed. I use [NodeJS][] to develop hight scalable and event-driven web applications.
+I develop modules for different open-source CMS systems like [Wordpress][] and [Drupal][] when it's needed. I use [NodeJS][] to develop hight scalable and event-driven web applications. Love it!
 
 I use HTML5, CSS3 and Javascript to develop frontend applications using different frameworks like [jQuery][], [Twitter Bootstrap][], [Modernizr][], [Html5Boilerplate][], [LESS][] and so on...
 
@@ -29,7 +29,7 @@ Contact
 -------
 Feel free to message me via social medias or email me at <{{ site.email }}>.
 
-I'm also present on [google+][], [symfony connect][], [lastfm][], [tumblr][] and [pinterest][].
+I'm also present on [facebook][], [google+][], [symfony connect][], [lastfm][], [tumblr][] and [pinterest][].
 
 [SEO]: http://en.wikipedia.org/wiki/Search_engine_optimization
 [SERP]: http://en.wikipedia.org/wiki/Search_engine_results_page
@@ -51,9 +51,12 @@ I'm also present on [google+][], [symfony connect][], [lastfm][], [tumblr][] and
 [Twig]: http://twig.sensiolabs.org/
 [PHPUnit]: https://github.com/sebastianbergmann/phpunit/
 [atoum]: https://github.com/mageekguy/atoum/
+[Behat]: http://behat.org/
+[BDD]: http://en.wikipedia.org/wiki/Behavior_Driven_Development
 [FuelPHP]: http://fuelphp.com/
 [Kohana]: http://kohanaframework.org/
 [CodeIgniter]: http://codeigniter.com/
+[unit tests]: http://en.wikipedia.org/wiki/Unit_testing
 [Wordpress]: http://wordpress.org/
 [Drupal]: http://drupal.org/
 [Debian]: http://www.debian.org/
@@ -63,6 +66,7 @@ I'm also present on [google+][], [symfony connect][], [lastfm][], [tumblr][] and
 [Memcached]: http://memcached.org/
 [Varnish]: https://www.varnish-cache.org/
 [NodeJS]: http://www.nodejs.org/
+[facebook]: {{ site.facebook }}
 [google+]: {{ site.googleplus }}
 [symfony connect]: {{ site.symfony }}
 [lastfm]: {{ site.lastfm }}
