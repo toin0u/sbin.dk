@@ -9,7 +9,11 @@ Me
 --
 I'm Antoine Corcy and I'm web developer in Copenhagen / Denmark from France (I speak danish ;). I'm passionate and curious so I enjoy experimenting and developing web applications using the latest web standards and learning about new languages and technologies. [SEO][] and [SERP][] are a part of my interests too.
 
-As a primary backend developer, I use [PHP][] with different open-source databases like [MySQL][], [PostgreSQL][] and [MangoDB][]. To not reinvent the wheel, I mainly use an hight performance PHP framework, [Symfony2][], which includes [Doctrine2][] (ORM) and [Twig][] (template engine). However I think [FuelPHP][], [Kohana][] and [CodeIgniter][] are some great frameworks as well. I develop modules for different open-source CMS systems like [Wordpress][] and [Drupal][] when it's needed. I use [NodeJS][] to develop hight scalable and event-driven web applications.
+As a primary backend developer, I use [PHP][] with different open-source databases like [MySQL][], [PostgreSQL][] and [MangoDB][]. To not reinvent the wheel, I mainly use an hight performance PHP framework, [Symfony2][], which includes [Doctrine2][] (ORM) and [Twig][] (template engine). However I think [FuelPHP][], [Kohana][] and [CodeIgniter][] are some great frameworks as well.
+
+What about unit tests ? As a PHP developer, I use [PHPUnit][] but I'm attracted to [atoum][], you should give a try!
+
+I develop modules for different open-source CMS systems like [Wordpress][] and [Drupal][] when it's needed. I use [NodeJS][] to develop hight scalable and event-driven web applications.
 
 I use HTML5, CSS3 and Javascript to develop frontend applications using different frameworks like [jQuery][], [Twitter Bootstrap][], [Modernizr][], [Html5Boilerplate][], [LESS][] and so on...
 
@@ -45,6 +49,8 @@ I'm also present on [google+][], [symfony connect][], [lastfm][], [tumblr][] and
 [Symfony2]: http://symfony.com/
 [Doctrine2]: http://docs.doctrine-project.org/
 [Twig]: http://twig.sensiolabs.org/
+[PHPUnit]: https://github.com/sebastianbergmann/phpunit/
+[atoum]: https://github.com/mageekguy/atoum/
 [FuelPHP]: http://fuelphp.com/
 [Kohana]: http://kohanaframework.org/
 [CodeIgniter]: http://codeigniter.com/
