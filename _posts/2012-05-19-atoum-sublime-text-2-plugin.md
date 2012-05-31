@@ -57,7 +57,7 @@ Result in a panel:
 * Sublime Text 2 report in atoum
 * ...
 
-This plugin will be soon available via the [Package Control](http://wbond.net/sublime_packages/package_control). I sent the [pull request](https://github.com/wbond/package_control_channel/pull/321).
+This plugin is <del>will be soon</del> available via the [Package Control](http://wbond.net/sublime_packages/package_control). <del>I sent the [pull request](https://github.com/wbond/package_control_channel/pull/321)</del>.
 
 You can install it manualy by cloning the [repository](https://github.com/toin0u/Sublime-atoum) in `~/Library/Application Support/Sublime Text 2/Packages`.
 
