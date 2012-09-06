@@ -26,8 +26,9 @@ The problem is obvious. Imagine now that the production server is Ubuntu 12.04 a
 
 ### Installation
 Vagrant's [packages](http://downloads.vagrantup.com) are prefered but it's possible to install with [Ruby Gem](http://rubygems.org).
-
-* $ `gem install vagrant`
+{% highlight bash %}
+$ gem install vagrant
+{% endhighlight %}
 
 ### Configuration
 On Windows and Mac OS X, the vagrant command should automatically be placed on your PATH like `PATH=$PATH:/Applications/VirtualBox.app/Contents/MacOS/`. On other systems, you must add `/opt/vagrant/bin to your PATH.

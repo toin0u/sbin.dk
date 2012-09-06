@@ -7,7 +7,7 @@ comments: true
 date: 2012-09-06 21:03:15
 title: FLOW3 PHP framework on Nginx
 summary: I just came back from a talk of Robert Lemke (FLOW3 lead dev) and Christian Müller (TYPO3 Phoenix Core Team) a very interesting introduction about FLOW3 and TYPO3 Phoenix. I wanted to try FLOW3 for a while but a day has only 24 hours. So thanks to PROSA (Danish IT union) who organized that tonight in Copenhagen.
-category: Php
+category: PHP
 tags: FLOW3 TYPO3 Nginx
 ---
 
