@@ -138,3 +138,5 @@ Success (1 test, 1/1 method, 7 assertions, 0 error, 0 exception) !
 {% endhighlight %}
 
 As you can see atoum is now executable in this way. A [symbolic link](https://github.com/mageekguy/atoum/pull/53) is created after the installation in **bin** directory. It's actually [allowed by composer](http://getcomposer.org/doc/articles/vendor-bins.md). And to keep all packages updated, just do `php composer.phar update` !
+
+**Update**: [Simple TDD with atoum](/2012/09/17/simple-tdd-with-atoum/)
