@@ -7,8 +7,8 @@ comments: true
 date: 2012-09-01 12:43:39
 title: Vagrant virtualizes environments easily !
 summary: How to keep development, staging, and production environments as similar as possible ? Virtualization is a good solution, and Vagrant will help us to do that. It's powerfull, lightweight, reproducible and portable ! Moreover it's easy to create and to setup. Interested ?
-category: Virtualization
-tags: Vagrant Ruby VirtualBox
+category: virtualization
+tags: vagrant ruby virtualBox
 ---
 
 Image you are working on 3 different projects:

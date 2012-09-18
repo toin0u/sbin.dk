@@ -7,8 +7,8 @@ comments: true
 date: 2012-05-19 20:51:54
 title: A simple Sublime Text 2 plugin for atoum
 summary: I was looking for an atoum plugin for Sublime Text 2 and I couldn't find one. So I decided to make a simple one even if I'm not a python developer. I figured out something that work but I need your pull requests to improve it. I'm not a "python-guru" :)
-category: Python
-tags: ['unit-testing', 'atoum', 'sublime text 2']
+category: python
+tags: ['unit test', 'atoum', 'sublime text 2']
 ---
 
 [Atoum](https://github.com/mageekguy/atoum) is a great unit testing framework for php made by [mageekguy](http://blog.mageekbox.net/) and [Sublime Text 2](http://www.sublimetext.com/) a must have text editor. I was looking for a plugin which can execute tests without leaving the editor like the existing [vim-plugin](http://www.sublimetext.com/). I couldn't find one.

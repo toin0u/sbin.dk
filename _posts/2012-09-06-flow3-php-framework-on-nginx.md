@@ -7,8 +7,8 @@ comments: true
 date: 2012-09-06 21:03:15
 title: FLOW3 PHP framework on Nginx
 summary: I just came back from a talk of Robert Lemke (FLOW3 lead dev) and Christian Müller (TYPO3 Phoenix Core Team) a very interesting introduction about FLOW3 and TYPO3 Phoenix. I wanted to try FLOW3 for a while but a day has only 24 hours. So thanks to PROSA (Danish IT union) who organized that tonight in Copenhagen.
-category: PHP
-tags: FLOW3 TYPO3 Nginx
+category: php
+tags: flow3 typo3 nginx
 ---
 
 [FLOW3](http://flow3.typo3.org/) is a PHP framework which was mainly created to develop [TYPO3 Phoenix](http://phoenix.typo3.org/). This work on Linux, Mac OSX and Windows (but not on XP because of the symbolic links in Ressources) with Apache 2 as a recommended HTTP servers and it requires PHP 5.3.2 or higher.

@@ -7,8 +7,8 @@ comments: true
 date: 2012-05-18 00:56:53
 title: Unit test with atoum installed with composer
 summary: I'm used to use atoum to test my PHP classes because I think it's more intuitive than PHPUnits. I just found out that it was possible to install it with composer. Let's see how to do that.
-category: PHP
-tags: unit-testing atoum composer
+category: php
+tags: ['unit test', 'atoum', 'composer']
 ---
 
 ### Why to use composer when we can get a phar single file ?

@@ -7,7 +7,7 @@ comments: true
 date: 2012-05-17 14:28:21
 title: Use Slim with Twig via Composer and Packagist on NginX
 summary: I enjoy to test PHP frameworks and I was looking for a light PHP framwork to prototype and develop a small project. Let's see how easy is to start with those tools.
-category: PHP
+category: php
 tags: slim twig composer packagist nginx
 ---
 

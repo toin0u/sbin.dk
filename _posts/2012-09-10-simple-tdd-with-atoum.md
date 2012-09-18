@@ -7,8 +7,8 @@ comments: true
 date: 2012-09-17 23:12:11
 title: Simple TDD with atoum
 summary: Let's optimize Test-Driven Development with Watchr which will monitor your code and automatically run the appropriate test whenever you save your code.
-category: PHP
-tags: Ruby atoum TDD Unit-testing
+category: php
+tags: ['ruby', 'atoum', 'tdd', 'unit test']
 ---
 
 I will use [atoum](https://github.com/mageekguy/atoum) because I wrote about it some times ago, [Unit test with atoum installed with composer](/2012/05/18/php-unit-testing-atoum-composer/). This post will present a ruby script which is compatible with folder and files structures. It's a very simple script so it will be easy to adapt to PHPUnit if you need.
