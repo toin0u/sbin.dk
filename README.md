@@ -1,3 +1,5 @@
+[![project status](http://stillmaintained.com/toin0u/sbin.dk.png)](http://stillmaintained.com/toin0u/sbin.dk)
+
 Requirements
 ------------
 1. [Jekyll](https://github.com/mojombo/jekyll/wiki/Install)
