@@ -19,6 +19,22 @@ I use HTML5, CSS3 and Javascript to develop frontend applications using differen
 
 I'm an avid [Debian][] and [Ubuntu Server][] user. Linux is a great OS to propulse web apps with [Nginx][] and/or [Apache2][] optimized with [Memcached][] and/or [Varnish][].
 
+Position
+--------
+CTO @ iMentor A/S
+
+Projects
+--------
+- [This blog which is a way to learn and use Ruby](https://github.com/toin0u/sbin.dk)
+- [A pyhon Sublime Text 2 plugin to test php files with atoum](https://github.com/toin0u/Sublime-atoum)
+
+Contributions
+-------------
+- [The almost missing Geocoder PHP library](http://geocoder-php.org/)
+- [Faker is a PHP library that generates fake data for you](https://github.com/fzaninotto/Faker)
+- [JavaScript Alert/Notification System](http://fabien-d.github.com/alertify.js/)
+
+
 Website
 -------
 This is a simple and personnal static website generated using [Jekyll][] and [Jekyll sites][]. It's hosted by [Meebox][] a good danish Cloud Server / VPS. The website's entire source code is available at [GitHub][] (don't hesitate to fork and pull requests are always welcome). For more information about what powers this website, have a look at the [humans.txt](/humans.txt).
@@ -29,7 +45,7 @@ Contact
 -------
 Feel free to message me via social medias or email me at <{{ site.email }}>.
 
-I'm also present on [facebook][], [google+][], [symfony connect][], [lastfm][], [tumblr][] and [pinterest][].
+I'm also present on [about.me][], [facebook][], [google+][], [symfony connect][], [lastfm][], [tumblr][] and [pinterest][].
 
 [SEO]: http://en.wikipedia.org/wiki/Search_engine_optimization
 [SERP]: http://en.wikipedia.org/wiki/Search_engine_results_page
@@ -66,6 +82,7 @@ I'm also present on [facebook][], [google+][], [symfony connect][], [lastfm][], 
 [Memcached]: http://memcached.org/
 [Varnish]: https://www.varnish-cache.org/
 [NodeJS]: http://www.nodejs.org/
+[about.me]: {{ site.about }}
 [facebook]: {{ site.facebook }}
 [google+]: {{ site.googleplus }}
 [symfony connect]: {{ site.symfony }}
