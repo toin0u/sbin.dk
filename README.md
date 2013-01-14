@@ -40,7 +40,7 @@ Configuration
 
 Usage
 -----
-1. See available commands, `rake -T`
+1. See available commands / tasks, `rake -T` or just `rake`
 2. Make a new post, `rake post "Hello world!"`
     * change `change_frequency` and `priority` (optional)
     * change the title (optional)
