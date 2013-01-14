@@ -1,3 +1,14 @@
+# rake -T to show available tasks
+
+# Usage: rake
+desc "Show available commands (tasks)"
+task :default do
+    puts "server: build files and launch local dev server"
+    puts "release: push repository to VPS"
+    puts "publish: push repository to Github"
+    puts "post [new post name]: create a new post file like YYYY-MM-DD-new-post-name.md"
+end
+
 # Usage: rake server
 desc "Build files and launch local dev server"
 task :server do
