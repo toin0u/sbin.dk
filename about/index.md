@@ -25,14 +25,14 @@ CTO @ iMentor A/S
 
 Projects
 --------
-- [This blog which is a way to learn and use Ruby](https://github.com/toin0u/sbin.dk)
-- [A pyhon Sublime Text 2 plugin to test php files with atoum](https://github.com/toin0u/Sublime-atoum)
+» [This blog which is a way to learn and use Ruby](https://github.com/toin0u/sbin.dk)  
+» [A pyhon Sublime Text 2 plugin to test php files with atoum](https://github.com/toin0u/Sublime-atoum)
 
 Contributions
 -------------
-- [The almost missing Geocoder PHP library](http://geocoder-php.org/)
-- [Faker is a PHP library that generates fake data for you](https://github.com/fzaninotto/Faker)
-- [JavaScript Alert/Notification System](http://fabien-d.github.com/alertify.js/)
+» [The almost missing Geocoder PHP library](http://geocoder-php.org/)  
+» [Faker is a PHP library that generates fake data for you](https://github.com/fzaninotto/Faker)  
+» [JavaScript Alert/Notification System](http://fabien-d.github.com/alertify.js/)
 
 
 Website
