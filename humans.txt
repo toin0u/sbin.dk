@@ -4,6 +4,7 @@
 
 /* TEAM */
     Web Developer: Antoine Corcy
+    About: http://about.me/antoinecorcy
     Site: http://sbin.dk/
     Twitter: https://twitter.com/toin0u
     github: https://github.com/toin0u

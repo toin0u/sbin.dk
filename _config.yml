@@ -8,6 +8,7 @@ rss:            "sbin.dk blog feed"
 author:         Antoine Corcy
 email:          contact@sbin.dk
 # ---------
+about:          http://about.me/antoinecorcy
 github:         https://github.com/toin0u
 githubsource:   https://github.com/toin0u/sbin.dk
 twitter:        https://twitter.com/toin0u
