@@ -4,15 +4,17 @@
 
 /* TEAM */
     Web Developer: Antoine Corcy
-    About: http://about.me/antoinecorcy
     Site: http://sbin.dk/
+    About.me: http://about.me/antoinecorcy
+    Symfony connect: https://connect.sensiolabs.com/profile/toin0u
     Twitter: https://twitter.com/toin0u
-    github: https://github.com/toin0u
-    google+: https://plus.google.com/100161090014693834503/
-    linkedin: http://www.linkedin.com/
-    facebook: https://facebook.com/toin0u
-    tumblr: http://dkfr.tumblr.com/
-    lastfm: http://last.fm/user/ackorea
+    Github: https://github.com/toin0u
+    Google+: https://plus.google.com/100161090014693834503/
+    Linkedin: http://www.linkedin.com/
+    Facebook: https://facebook.com/toin0u
+    Tumblr: http://dkfr.tumblr.com/
+    Lastfm: http://last.fm/user/ackorea
+    Pinterest: https://pinterest.com/toin0u/
     Location: Copenhagen
 
 /* SITE */
