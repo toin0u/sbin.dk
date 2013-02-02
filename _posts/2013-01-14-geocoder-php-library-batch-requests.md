@@ -8,7 +8,7 @@ date: 2013-01-14 13:24:17
 title: Geocoder PHP library simple batch requests
 summary: If you need a geocoder library in PHP, you should really give a try to William Durand's library - The almost missing Geocoder PHP 5.3 library ! It's a quick post which will show you how to run a query againts a list of given providers.
 category: php
-tags: php geocoder
+tags: geocoder
 ---
 
 This demo will run the `CurlHttpAdapter` against `10 providers` which can geocode this address `10 rue Gambetta, Paris, France`. We will then transform, if available, result objects in standard format via the `WktDumper`.

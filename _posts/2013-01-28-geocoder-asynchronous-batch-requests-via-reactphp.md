@@ -8,7 +8,7 @@ date: 2013-01-28 11:06:39
 title: Geocoder asynchronous batch requests via Reactphp
 summary: Synchronous batch requests is ok but why not make them asynchronous ? It is quite easy with Reactphp which is an event-driven, non-blocking I/O library in PHP made by Igor Wiedler.
 category: php
-tags: php geocoder
+tags: geocoder reactphp
 ---
 
 As said we will use [Reactphp](http://reactphp.org/) especially the [Async](https://github.com/reactphp/async) module. We will take the exemple from the post [Geocoder php library simple batch requests](/2013/01/14/geocoder-php-library-batch-requests/) and adapt it to make it asynchronous. The implementation will be very simple, it's just to show how to use [React](https://github.com/reactphp) with [Geocoder](http://geocoder-php.org/) in a very **basic** way.
