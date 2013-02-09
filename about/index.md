@@ -26,7 +26,8 @@ CTO @ iMentor A/S
 Projects
 --------
 » [This blog which is a way to learn and use Ruby](https://github.com/toin0u/sbin.dk)  
-» [A pyhon Sublime Text 2 plugin to test php files with atoum](https://github.com/toin0u/Sublime-atoum)
+» [A pyhon Sublime Text 2 plugin to test php files with atoum](https://github.com/toin0u/Sublime-atoum)  
+» [Geotools a Geo-related tools PHP 5.3 library built atop Geocoder and React libraries](https://github.com/toin0u/Geotools)
 
 Contributions
 -------------
