@@ -12,8 +12,9 @@
     <title>{{ page.title }} | {{ site.name }}</title>
     <meta name="description" content="{% if site.summary and page.summary %}{{ page.summary | capitalize }}{% else %}{{ page.title | capitalize }}{% endif %} - {{ site.description | capitalize }}">
     <meta name="keywords" content="{% if page.category %}{{ page.category | capitalize }}, {% endif %}{% if page.tags %}{% for tag in page.tags %}{{ tag | capitalize }}, {% endfor %}{% endif %}{{ site.keywords }}">
-    <meta name="author" content="{{ site.author }} <{{ site.email }}>">
     <meta name="robots" content="index, follow, archive, all, noodp, noydir">
+    <meta name="author" content="{{ site.author }} <{{ site.email }}>">
+    <link rel="author" href="humans.txt">
     <link rel="shortcut icon" href="/static/favicon.ico">
     <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
     <link href="/rss.xml" rel="alternate" title="RSS {{ site.rss }}" type="application/rss+xml">

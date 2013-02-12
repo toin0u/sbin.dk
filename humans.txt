@@ -4,6 +4,7 @@
 
 /* TEAM */
     Web Developer: Antoine Corcy
+    Contact: contact [at] sbin.dk
     Site: http://sbin.dk/
     About.me: http://about.me/antoinecorcy
     Symfony connect: https://connect.sensiolabs.com/profile/toin0u
@@ -15,11 +16,13 @@
     Tumblr: http://dkfr.tumblr.com/
     Lastfm: http://last.fm/user/ackorea
     Pinterest: https://pinterest.com/toin0u/
-    Location: Copenhagen
+    Location: Copenhagen, Denmark
 
 /* SITE */
-    Last update: 13 May 2012
+    Last update: 2013/02/12
+    Language: English
+    Doctype: HTML5
     Standards: HTML5, CSS3, RSS, Media Queries, Microdata, WAI-ARIA, CORS
-    Components: HTML5 Boilerplate, Modernizr, jQuery
+    Components: HTML5 Boilerplate, Modernizr, jQuery, head.js
     Software: Sublime Text 2, Jekyll, LESS
     Source: https://github.com/toin0u/sbin.dk
