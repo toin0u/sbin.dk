@@ -1,3 +1,6 @@
+sbin.dk
+=======
+
 [![project status](http://stillmaintained.com/toin0u/sbin.dk.png)](http://stillmaintained.com/toin0u/sbin.dk)
 
 Requirements
@@ -57,3 +60,8 @@ Let's push changes to your repository **and** your VPS.
 
 1. `git commit -a -m "Added: my first post"`
 2. `rake release`
+
+
+Licence
+-------
+sbin.dk is released under the MIT License. See the bundled [LICENSE](LICENSE) file for details.
