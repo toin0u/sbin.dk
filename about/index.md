@@ -15,13 +15,17 @@ What about [unit tests][] ? As a PHP developer, I use [PHPUnit][] mostly but I'm
 
 I develop modules for different open-source CMS systems like [Wordpress][] and [Drupal][] when it's needed. I use [NodeJS][] to develop hight scalable and event-driven web applications. Love it!
 
+But as a curious person, I spend time on [Ruby][] & [Ruby on Rails][] or [Go][].
+
 I use HTML5, CSS3 and Javascript to develop frontend applications using different frameworks like [jQuery][], [Twitter Bootstrap][], [Modernizr][], [Html5Boilerplate][], [LESS][] and so on...
 
 I'm an avid [Debian][] and [Ubuntu Server][] user. Linux is a great OS to propulse web apps with [Nginx][] and/or [Apache2][] optimized with [Memcached][] and/or [Varnish][].
 
+What about **Open Source** ? I love it :)
+
 Position
 --------
-CTO @ iMentor A/S
+CTO & DevOps @ iMentor A/S
 
 Projects
 --------
@@ -35,10 +39,9 @@ Contributions
 » [Faker is a PHP library that generates fake data for you](https://github.com/fzaninotto/Faker)  
 » [JavaScript Alert/Notification System](http://fabien-d.github.com/alertify.js/)
 
-
 Website
 -------
-This is a simple and personnal static website generated using [Jekyll][] and [Jekyll sites][]. It's hosted by [Meebox][] a good danish Cloud Server / VPS. The website's entire source code is available at [GitHub][] (don't hesitate to fork and pull requests are always welcome). For more information about what powers this website, have a look at the [humans.txt](/humans.txt).
+This is a simple and personnal static website generated using [Jekyll][] and [Jekyll sites][]. It's hosted by [DigitalOcean][] a very good SSD Cloud Server. The website's entire source code is available at [GitHub][] (don't hesitate to fork and pull requests are always welcome). For more information about what powers this website, have a look at the [humans.txt](/humans.txt).
 
 All content is under Creative Commons [BY-NC-SA 3.0][] license.
 
@@ -52,7 +55,7 @@ I'm also present on [about.me][], [facebook][], [google+][], [symfony connect][]
 [SERP]: http://en.wikipedia.org/wiki/Search_engine_results_page
 [Jekyll]: https://github.com/mojombo/jekyll
 [Jekyll sites]: https://github.com/mojombo/jekyll/wiki/Sites
-[Meebox]: https://meebox.net/
+[DigitalOcean]: http://digitalocean.com/
 [Github]: https://github.com/toin0u/sbin.dk
 [Html5Boilerplate]: http://html5boilerplate.com/
 [Twitter Bootstrap]: http://twitter.github.com/bootstrap/
@@ -83,6 +86,9 @@ I'm also present on [about.me][], [facebook][], [google+][], [symfony connect][]
 [Memcached]: http://memcached.org/
 [Varnish]: https://www.varnish-cache.org/
 [NodeJS]: http://www.nodejs.org/
+[Ruby]: http://ruby-lang.org/
+[Ruby on Rails]: http://rubyonrails.org/
+[Go]: http://golang.org/
 [about.me]: {{ site.about }}
 [facebook]: {{ site.facebook }}
 [google+]: {{ site.googleplus }}
