@@ -17,9 +17,9 @@ task :server do
 end
 
 # Usage: rake release
-desc "Push repository to VPS and Github"
+desc "Push repository to VPS"
 task :release => :publish do
-    puts "Pushing repository to VPS and Github..."
+    puts "Pushing repository to VPS..."
     sh "git push deploy master"
 end
 
