@@ -9,7 +9,7 @@ Me
 --
 I'm Antoine Corcy and I'm web developer in Copenhagen / Denmark from France (I speak danish ;). I'm passionate and curious so I enjoy experimenting and developing web applications using the latest web standards and learning about new languages and technologies. [SEO][] and [SERP][] are a part of my interests too.
 
-As a primary backend developer, I use [PHP][] with different open-source databases like [MySQL][], [PostgreSQL][] and [MangoDB][]. To not reinvent the wheel, I mainly use an hight performance PHP framework, [Symfony2][], which includes [Doctrine2][] (ORM) and [Twig][] (template engine). However I think [FuelPHP][], [Kohana][] and [CodeIgniter][] are some great frameworks as well.
+As a primary backend developer, I use [PHP][] with different open-source databases like [MySQL][], [PostgreSQL][] and [MangoDB][]. To not reinvent the wheel, I mainly use an hight performance PHP framework, [Symfony2][], which includes [Doctrine2][] (ORM) and [Twig][] (template engine). However I think [Laravel][], [Kohana][] and [CodeIgniter][] are some great frameworks as well.
 
 What about [unit tests][] ? As a PHP developer, I use [PHPUnit][] mostly but I'm attracted to [atoum][], you should give a try! When tests should drive the development, [Behat][] is a nice [BDD][] framework for PHP.
 
@@ -73,7 +73,7 @@ I'm also present on [about.me][], [facebook][], [google+][], [symfony connect][]
 [atoum]: https://github.com/mageekguy/atoum/
 [Behat]: http://behat.org/
 [BDD]: http://en.wikipedia.org/wiki/Behavior_Driven_Development
-[FuelPHP]: http://fuelphp.com/
+[Laravel ]: http://laravel.com/
 [Kohana]: http://kohanaframework.org/
 [CodeIgniter]: http://codeigniter.com/
 [unit tests]: http://en.wikipedia.org/wiki/Unit_testing
