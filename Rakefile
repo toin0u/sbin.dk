@@ -62,6 +62,7 @@ task :post do
         post.puts "summary: "
         post.puts "category: "
         post.puts "tags: "
+        post.puts "redirects:"
         post.puts "---"
         post.puts ""
     end

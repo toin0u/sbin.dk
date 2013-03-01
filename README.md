@@ -25,6 +25,7 @@ Why to fork?
 * Possible to show posts' summary in front page
 * Disqus in posts and track comments with Google Analytics
 * Title, summary, category and tags update meta tags
+* Redirections
 * Rakefile to automate tasks
 
 

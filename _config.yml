@@ -39,3 +39,4 @@ markdown:       rdiscount
 # PLUGINS
 # -------
 lessc:          lessc --yui-compress
+redirects:      yes
