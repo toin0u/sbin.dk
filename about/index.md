@@ -30,6 +30,7 @@ CTO & DevOps @ iMentor A/S
 Projects
 --------
 » [Geotools a Geo-related tools PHP 5.3 library built atop Geocoder and React libraries](http://geotools-php.org/)  
+» [PHP 5.3+ library which helps you to interact with the DigitalOcean API](https://github.com/toin0u/DigitalOcean)  
 » [This blog which is a way to learn and use Ruby](https://github.com/toin0u/sbin.dk)  
 » [A pyhon Sublime Text 2 plugin to test php files with atoum](https://github.com/toin0u/Sublime-atoum)
 
