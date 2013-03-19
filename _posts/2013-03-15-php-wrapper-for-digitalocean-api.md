@@ -5,13 +5,19 @@ priority: 0.8
 published: true
 comments: true
 date: 2013-03-15 14:11:59
-title: PHP wapper for DigitalOcean API
+title: PHP wrapper for DigitalOcean API
 summary: If you use DigitalOcean, PHP and Composer - you should give a look to this little library that I just open-sourced. I made for my own need. Do not hesitate to PR, refactor, typo, CS ... :)
 category: php
 tags: api digitalocean
 redirects:
 - /DigitalOcean
 ---
+
+Version **1.0.0** is released!
+
+![DigitalOcean CLI](http://i.imgur.com/Zhvk5yr.png)
+
+--
 
 [DigitalOcean](https://www.digitalocean.com) is built for Developers, helps to get things done faster and to deploy an SSD cloud server in less than 55 seconds with a dedicated IP and root access. [Read more](https://www.digitalocean.com/features).
 
