@@ -38,6 +38,7 @@ Contributions
 -------------
 » [The almost missing Geocoder PHP library](http://geocoder-php.org/)  
 » [Faker is a PHP library that generates fake data for you](https://github.com/fzaninotto/Faker)  
+» [Bolt: sophisticated, lightweight & simple CMS](http://bolt.cm/)  
 » [JavaScript Alert/Notification System](http://fabien-d.github.com/alertify.js/)
 
 Website
