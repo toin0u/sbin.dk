@@ -13,6 +13,10 @@ redirects:
 - /Geotools
 ---
 
+**Geotools** supports now **Redis**, **MongoDB** and **Memcached** as cache engine. [Read more in github](https://github.com/toin0u/Geotools)
+
+--
+
 Well, [Geotools](http://geotools-php.org/) is yet another project about geocoding tools, kit, library etc... Yes, but if you are a user of [Geocoder](http://geocoder-php.org/) you will appreciate it - I hope :)
 
 I started this, first of all, for *my own needs* and then because I was thinking how I could implement an easy way to batch geocoding and reverse geocondig requests in [serie](/2013/01/14/geocoder-php-library-batch-requests/) and especially in [parallel](/2013/01/28/geocoder-asynchronous-batch-requests-via-reactphp/). Of course, I looked around to see if a geo-related PHP library could be found ([packagist for exemple](https://packagist.org/search/?q=geotools)) but not like I expected :/
