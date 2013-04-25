@@ -41,7 +41,9 @@ Contributions
 » [Faker is a PHP library that generates fake data for you](https://github.com/fzaninotto/Faker)  
 » [Bolt: sophisticated, lightweight & simple CMS](http://bolt.cm/)  
 » [JavaScript Alert/Notification System](http://fabien-d.github.com/alertify.js/)  
-» [The Symfony PHP framework](https://github.com/symfony/symfony)
+» [The Symfony PHP framework](https://github.com/symfony/symfony)  
+» [Bernard: Message queue implemented with Redis and PHP](http://henrikbjorn.github.io/Bernard/)  
+» [Monitoring application for Bernard](https://github.com/henrikbjorn/Juno)
 
 Website
 -------
