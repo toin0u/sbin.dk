@@ -15,6 +15,11 @@
     <meta name="p:domain_verify" content="{{ site.pinterest_id }}" >
     <meta name="robots" content="index, follow, archive, all, noodp, noydir">
     <meta name="author" content="{{ site.author }} <{{ site.email }}>">
+    {% if page.title %}<meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@toin0u">
+    <meta name="twitter:creator" content="@toin0u">
+    <meta name="twitter:title" content="{{ page.title }}">{% endif %}
+    <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% endif %}">
     <link rel="author" href="humans.txt">
     <link rel="shortcut icon" href="/static/favicon.ico">
     <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
