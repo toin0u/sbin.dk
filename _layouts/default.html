@@ -18,8 +18,9 @@
     {% if page.title %}<meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@toin0u">
     <meta name="twitter:creator" content="@toin0u">
-    <meta name="twitter:title" content="{{ page.title }}">{% endif %}
-    <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% endif %}">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description | capitalize }}{% endif %}">
+    <meta name="twitter:domain" content="{{ site.name }}">{% endif %}
     <link rel="author" href="humans.txt">
     <link rel="shortcut icon" href="/static/favicon.ico">
     <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
