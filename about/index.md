@@ -11,17 +11,17 @@ I'm Antoine Corcy and I'm web developer in Copenhagen / Denmark from France (I s
 
 As a primary backend developer, I use [PHP][] with different open-source databases like [MySQL][], [PostgreSQL][] and [MangoDB][]. To not reinvent the wheel, I mainly use hight performance PHP frameworks like [Symfony2][] or [Silex][], with [Doctrine2][] / [Propel][] (ORM) and [Twig][] (template engine). However I think [Laravel][], [Flow][], [Kohana][] and [CodeIgniter][] are some great frameworks as well. I'm a [Composer][], [Packagist][] and [Bower][] user.
 
-What about [unit tests][] ? As a PHP developer, I use [PHPUnit][] mostly but I'm attracted to [atoum][], you should give a try! When tests should drive the development, [Behat][] is a nice [BDD][] framework for PHP.
+What about [unit tests][] ? As a PHP developer, I use [PHPUnit][] mostly but I'm attracted to [atoum][], you should give a try! When tests should drive the development, [Behat][] is a nice Story[BDD][] framework for PHP. [phpspec][] is also very interesting.
 
 I develop modules for different open-source CMS systems like [Wordpress][] and [Drupal][] when it's needed.
 
-I use [node.js][] to develop hight scalable and event-driven web applications. Love it! I'm also following [SPA][] world, [Marionette.js][], [Backbone.js][], [RequireJS][]...
+I use [node.js][] to develop hight scalable and event-driven web applications. Love it! I'm also following the [SPA][] world, [Marionette.js][], [Backbone.js][], [RequireJS][]...
 
-But as a curious person, I spend time on [Ruby][] & [Ruby on Rails][] or [Go][]. I'm always learning and testing !
+As a curious person, I spend time on [Ruby][] & [Ruby on Rails][] or [Go][]. I'm always learning and testing !
 
 I use HTML5, CSS3 and Javascript to develop frontend applications using different frameworks like [jQuery][], [Twitter Bootstrap][], [Modernizr][], [Html5Boilerplate][], [LESS][] and so on... Nowdays websites should be [Responsives][] for me !
 
-I'm an avid [Debian][] and [Ubuntu Server][] user. Linux is a great OS to propulse web apps with [Nginx][] (load balancing) and/or [Apache2][] optimized with [Redis][], [Memcached][] and/or [Varnish][].
+I'm an avid [Debian][] and [Ubuntu Server][] user. Linux is a great OS to propulse web apps with [Nginx][] (load balancer) and/or [Apache2][] optimized with [Redis][], [Memcached][] and/or [Varnish][].
 
 What about **Open Source** ? I love it :)
 
@@ -85,6 +85,7 @@ I'm also present on [about.me][], [facebook][], [google+][], [symfony connect][]
 [atoum]: https://github.com/mageekguy/atoum/
 [Behat]: http://behat.org/
 [BDD]: http://en.wikipedia.org/wiki/Behavior_Driven_Development
+[phpspec]: http://www.phpspec.net/
 [Laravel]: http://laravel.com/
 [Flow]: http://flow.typo3.org/
 [Kohana]: http://kohanaframework.org/
