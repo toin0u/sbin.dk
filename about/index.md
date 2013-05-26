@@ -27,13 +27,14 @@ What about **Open Source** ? I love it :)
 
 Position
 --------
-CTO & DevOps @ iMentor A/S
+Developer @ Peytz & Co.
 
 Projects
 --------
 » [Geotools a Geo-related tools PHP 5.3 library built atop Geocoder and React libraries](http://geotools-php.org/)  
 » [PHP 5.3+ library which helps you to interact with the DigitalOcean API](https://github.com/toin0u/DigitalOcean)  
 » [Trustpilot wrapper PHP 5.3+ library](https://github.com/toin0u/Trustpilot)  
+» [HttpAdapter PHP 5.3+ library](https://github.com/toin0u/HttpAdapter)  
 » [This blog which is a way to learn and use Ruby](https://github.com/toin0u/sbin.dk)  
 » [A pyhon Sublime Text 2 plugin to test php files with atoum](https://github.com/toin0u/Sublime-atoum)
 
@@ -65,7 +66,7 @@ I'm also present on [about.me][], [facebook][], [google+][], [symfony connect][]
 [Semantic Web]: http://en.wikipedia.org/wiki/Semantic_Web
 [Jekyll]: https://github.com/mojombo/jekyll
 [Jekyll sites]: https://github.com/mojombo/jekyll/wiki/Sites
-[DigitalOcean]: http://digitalocean.com/
+[DigitalOcean]: https://www.digitalocean.com/?refcode=7d0a1bed77fe
 [Github]: https://github.com/toin0u/sbin.dk
 [Html5Boilerplate]: http://html5boilerplate.com/
 [Twitter Bootstrap]: http://twitter.github.com/bootstrap/
