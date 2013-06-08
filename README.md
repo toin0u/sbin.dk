@@ -5,7 +5,7 @@ sbin.dk
 
 Requirements
 ------------
-1. [Jekyll](https://github.com/mojombo/jekyll/wiki/Install)
+1. [Jekyll](http://jekyllrb.com/docs/installation/)
     * RDiscount
     * Pygments
 2. [Rake](http://rake.rubyforge.org/)
@@ -33,7 +33,7 @@ Installation
 ------------
 1. Fork this `https://github.com/toin0u/sbin.dk`
 2. Clone it
-3. Add a `deploy` remote to you VPS for instance ([deployment](https://github.com/mojombo/jekyll/wiki/Deployment))
+3. Add a `deploy` remote to your VPS for instance ([deployment](https://github.com/mojombo/jekyll/wiki/Deployment))
 
 
 Configuration
@@ -59,7 +59,7 @@ Release
 -------
 Let's push changes to your repository **and** your VPS.
 
-1. `git commit -a -m "Added: my first post"`
+1. `git commit -am "Added: my first post"`
 2. `rake release`
 
 

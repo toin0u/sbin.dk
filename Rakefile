@@ -13,7 +13,7 @@ end
 desc "Build files and launch local dev server"
 task :server do
     puts "Building files and launching local dev server..."
-    sh "jekyll --server --auto"
+    sh "jekyll server --watch"
 end
 
 # Usage: rake release
