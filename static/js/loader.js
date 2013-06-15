@@ -6,13 +6,10 @@
 head.js(
     //{ plugins: "/static/js/plugins.js" },
     { scripts: "/static/js/scripts.js" },
-    { twitter: "/static/js/twitter.js" },
     function() {
         head.js(
-            // { feed: "http://twitter.com/statuses/user_timeline/toin0u.json?callback=lastTweet&count=5" },
-            { feed: "https://api.twitter.com/1/statuses/user_timeline/toin0u.json?callback=lastTweet&count=5" },
             function() {
-
+                //
             }
         );
     }
