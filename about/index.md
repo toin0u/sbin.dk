@@ -23,6 +23,8 @@ I use HTML5, CSS3 and Javascript to develop frontend applications using differen
 
 I'm an avid [Debian][] and [Ubuntu Server][] user. Linux is a great OS to propulse web apps with [Nginx][] (load balancer) and/or [Apache2][] optimized with [Redis][], [Memcached][] and/or [Varnish][].
 
+Deployement ? [Capistrano][] of course and [Capifony][] for Symfony applications ! By the way, [Grunt][] which is made in PHP looks promising...
+
 What about **Open Source** ? I love it :)
 
 Position
@@ -121,3 +123,6 @@ I'm also present on [about.me][], [facebook][], [google+][], [symfony connect][]
 [tumblr]: {{ site.tumblr }}
 [pinterest]: {{ site.pinterest }}
 [BY-NC-SA 3.0]: http://creativecommons.org/licenses/by-nc-sa/3.0/
+[Capistrano]: https://github.com/capistrano/capistrano
+[Capifony]: http://capifony.org/
+[Grunt]: https://github.com/php-loep/grunt
