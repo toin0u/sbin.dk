@@ -49,7 +49,8 @@ Contributions
 » [The Symfony PHP framework](https://github.com/symfony/symfony)  
 » [Bernard: Message queue implemented with Redis and PHP](https://github.com/henrikbjorn/Bernard)  
 » [Monitoring application for Bernard](https://github.com/henrikbjorn/Juno)  
-» [PHP 5.3+ OAuth 1/2 Library](https://github.com/Lusitanian/PHPoAuthLib)
+» [PHP 5.3+ OAuth 1/2 Library](https://github.com/Lusitanian/PHPoAuthLib)  
+» [Extract colors from an image like a human would do](https://github.com/php-loep/color-extractor)
 
 Website
 -------
