@@ -13,7 +13,7 @@ tags: geocoder bernard queue
 
 ![Bernard](http://i.imgur.com/QV6OWkU.png)
 
-Let's [geocode](geocoder-php.org) an **IPv4**, a real **address** and **foobar** via the `ChainProvider` with
+Let's [geocode](http://geocoder-php.org) an **IPv4**, a real **address** and **foobar** via the `ChainProvider` with
 `FreeGeoIpProvider` and `GoogleMapsProvider` with the `CurlHttpAdapter` using the `GeoJsonDumper` dumper.
 
 Then we need to make the [Bernard](http://bernardphp.com/) `Client` with the `PredisDriver` because we will use Redis
