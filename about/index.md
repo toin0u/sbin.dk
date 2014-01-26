@@ -15,7 +15,7 @@ What about [unit tests][] ? As a PHP developer, I use [PHPUnit][] mostly but I'm
 
 I develop modules for different open-source CMS systems like [Wordpress][] and [Drupal][] when it's needed.
 
-I use [node.js][] to develop hight scalable and event-driven web applications. Love it! I'm also following the [SPA][] world, [Marionette.js][], [Backbone.js][], [RequireJS][]...
+I use [node.js][] to develop hight scalable and event-driven web applications. Love it! I'm also following the [SPA][] world, [Marionette.js][], [Backbone.js][], [RequireJS][]... But felt in love with [AngularJS][] !
 
 As a curious person, I spend time on [Ruby][] & [Ruby on Rails][] or [Go][]. I'm always learning and testing !
 
@@ -114,6 +114,7 @@ I'm also present on [about.me][], [facebook][], [google+][], [symfony connect][]
 [Marionette.js]:http://marionettejs.com/
 [Backbone.js]: http://backbonejs.org/
 [RequireJS]: http://requirejs.org/
+[AngularJS]: http://angularjs.org/
 [Ruby]: http://ruby-lang.org/
 [Ruby on Rails]: http://rubyonrails.org/
 [Go]: http://golang.org/
