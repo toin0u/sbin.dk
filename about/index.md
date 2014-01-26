@@ -38,7 +38,8 @@ Projects
 » [Trustpilot wrapper PHP 5.3+ library](https://github.com/toin0u/Trustpilot)  
 » [HttpAdapter PHP 5.3+ library](https://github.com/toin0u/HttpAdapter)  
 » [This blog which is a way to learn and use Ruby](https://github.com/toin0u/sbin.dk)  
-» [A pyhon Sublime Text 2 plugin to test php files with atoum](https://github.com/toin0u/Sublime-atoum)
+» [A pyhon Sublime Text 2 plugin to test php files with atoum](https://github.com/toin0u/Sublime-atoum)  
+» [Dig concurrently A record & TTL of a domain against a set of DNS servers in Go](https://github.com/toin0u/diggg)
 
 Contributions
 -------------
