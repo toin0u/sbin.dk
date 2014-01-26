@@ -62,7 +62,8 @@ Contact
 -------
 Feel free to message me via social medias or email me at <{{ site.email }}>.
 
-I'm also present on [about.me][], [facebook][], [google+][], [symfony connect][], [lastfm][], [tumblr][] and [pinterest][].
+I'm also present on [about.me][], [facebook][], [google+][], [symfony connect][], [lastfm][], [tumblr][],
+[Instagram][] and [pinterest][].
 
 [SEO]: http://en.wikipedia.org/wiki/Search_engine_optimization
 [SERP]: http://en.wikipedia.org/wiki/Search_engine_results_page
@@ -122,6 +123,7 @@ I'm also present on [about.me][], [facebook][], [google+][], [symfony connect][]
 [symfony connect]: {{ site.symfony }}
 [lastfm]: {{ site.lastfm }}
 [tumblr]: {{ site.tumblr }}
+[instagram]: {{ site.instagram }}
 [pinterest]: {{ site.pinterest }}
 [BY-NC-SA 3.0]: http://creativecommons.org/licenses/by-nc-sa/3.0/
 [Capistrano]: https://github.com/capistrano/capistrano
