@@ -141,4 +141,4 @@ SetEnv SISMO_CONFIG_PATH "/path/to/sismo/config"
 {% endhighlight %}
 
 ### Conclusion
-As you can see [Sismo](https://github.com/fabpot/Sismo) works like a charm with [atoum](https://github.com/mageekguy/atoum) ! There is no more excuse to not use [atoum](https://github.com/mageekguy/atoum/wiki/Ressources-et-tutoriaux) if you are a Sismo user ;) Thanks to Fabien Potentier ([@fabpot](https://twitter.com/fabpot)) and Frédéric Hardy ([@mageekguy](https://twitter.com/mageekguy)) for their tools & frameworks !
+As you can see [Sismo](https://github.com/fabpot/Sismo) works like a charm with [atoum](https://github.com/mageekguy/atoum) ! There is no more excuse to not use [atoum](https://github.com/mageekguy/atoum/wiki/Ressources-et-tutoriaux) if you are a Sismo user ;) Thanks to Fabien Potencier ([@fabpot](https://twitter.com/fabpot)) and Frédéric Hardy ([@mageekguy](https://twitter.com/mageekguy)) for their tools & frameworks !
