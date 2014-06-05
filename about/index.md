@@ -68,6 +68,65 @@ Feel free to message me via social medias or email me at <{{ site.email }}>.
 I'm also present on [about.me][], [facebook][], [google+][], [symfony connect][], [lastfm][], [tumblr][],
 [Instagram][] and [pinterest][].
 
+PGP
+---
+You can download my [PGP public key](http://static.sbin.dk/pgp_sbin_dk.asc).
+
+{% highlight text %}
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+
+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
+=8Zvm
+-----END PGP PUBLIC KEY BLOCK-----
+{% endhighlight %}
+
 [SEO]: http://en.wikipedia.org/wiki/Search_engine_optimization
 [SERP]: http://en.wikipedia.org/wiki/Search_engine_results_page
 [Semantic Web]: http://en.wikipedia.org/wiki/Semantic_Web
