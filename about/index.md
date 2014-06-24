@@ -42,6 +42,7 @@ Projects
 » [Dig concurrently A record & TTL of a domain against a set of DNS servers in Go](https://github.com/toin0u/diggg)  
 » [Concise your urls via extern providers :)](https://github.com/toin0u/concise)  
 » [Geocoder in Go](https://github.com/toin0u/geocoder-go)
+» [DigitalOcean API v2 PHP wrapper](https://github.com/toin0u/DigitalOceanV2)
 
 Contributions
 -------------
