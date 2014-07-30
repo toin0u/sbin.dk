@@ -21,7 +21,9 @@ As a curious person, I spend time on [Ruby][] & [Ruby on Rails][] or [Go][]. I'm
 
 I use HTML5, CSS3 and Javascript to develop frontend applications using different frameworks like [jQuery][], [Twitter Bootstrap][], [Modernizr][], [Html5Boilerplate][], [LESS][] and so on... Nowdays websites should be [Responsives][] for me !
 
-I'm an avid [Debian][] and [Ubuntu Server][] user. Linux is a great OS to propulse web apps with [Nginx][] (load balancer) and/or [Apache2][] optimized with [Redis][], [Memcached][] and/or [Varnish][].
+I'm an avid [Debian][] and [Ubuntu Server][] user. Linux is a great OS to propulse web apps with [HAProxy][], [Nginx][] (load balancer / reverse proxy) and/or [Apache2][] optimized with [Redis][], [Memcached][] and/or [Varnish][].
+
+[Vagrant][] with [Ansible][] is just awesome ! [Docker][] shouldn't be forgotten :)
 
 Deployement ? [Capistrano][] of course and [Capifony][] for Symfony applications ! By the way, [Grunt][] which is made in PHP looks promising...
 
@@ -172,6 +174,10 @@ LeZbHIi4dqZzFzRDBqKE0WjvazMEw1wa3FnoOWhUxRUJMX3FB3V2YNRsqBBTAtoPwg1/uKO5
 [Debian]: http://www.debian.org/
 [Ubuntu Server]: http://www.ubuntu.com/business/server/overview
 [Apache2]: http://apache.org/
+[HAProxy]: http://www.haproxy.org/
+[Vagrant]: http://www.vagrantup.com/
+[Ansible]: http://www.ansible.com/
+[Docker]: https://www.docker.com/
 [NginX]: http://nginx.org/
 [Redis]: http://redis.io/
 [Memcached]: http://memcached.org/
