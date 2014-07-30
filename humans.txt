@@ -8,6 +8,7 @@
     Site: http://sbin.dk/
     About.me: http://about.me/antoinecorcy
     Symfony connect: https://connect.sensiolabs.com/profile/toin0u
+    Packagist: https://packagist.org/users/toin0u/
     Twitter: https://twitter.com/toin0u
     Github: https://github.com/toin0u
     Google+: https://plus.google.com/102966454202044929133/
@@ -16,11 +17,12 @@
     Tumblr: http://dkfr.tumblr.com/
     Instagram: http://instagram.com/toin0u/
     Lastfm: http://last.fm/user/ackorea
+    Spotify: http://open.spotify.com/user/113305486
     Pinterest: https://pinterest.com/toin0u/
     Location: Copenhagen, Denmark
 
 /* SITE */
-    Last update: 2013/02/12
+    Last update: 2014/07/30
     Language: English
     Doctype: HTML5
     Standards: HTML5, CSS3, RSS, Media Queries, Microdata, WAI-ARIA, CORS
