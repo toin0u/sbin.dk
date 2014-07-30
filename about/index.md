@@ -66,8 +66,8 @@ Contact
 -------
 Feel free to message me via social medias or email me at <{{ site.email }}>.
 
-I'm also present on [about.me][], [facebook][], [google+][], [symfony connect][], [lastfm][], [spotify][], [tumblr][],
-[Instagram][] and [pinterest][].
+I'm also present on [about.me][], [facebook][], [google+][], [symfony connect][], [packagist][], [lastfm][],
+[spotify][], [tumblr][], [Instagram][] and [pinterest][].
 
 Pretty Good Privacy
 -------------------
@@ -189,6 +189,7 @@ LeZbHIi4dqZzFzRDBqKE0WjvazMEw1wa3FnoOWhUxRUJMX3FB3V2YNRsqBBTAtoPwg1/uKO5
 [facebook]: {{ site.facebook }}
 [google+]: {{ site.googleplus }}
 [symfony connect]: {{ site.symfony }}
+[packagist]: {{ site.packagist }}
 [lastfm]: {{ site.lastfm }}
 [tumblr]: {{ site.tumblr }}
 [instagram]: {{ site.instagram }}
