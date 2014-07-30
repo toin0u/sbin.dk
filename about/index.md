@@ -11,7 +11,7 @@ I'm Antoine Corcy and I'm web developer in Copenhagen / Denmark from France (I s
 
 As a primary backend developer, I use [PHP][] with different open-source databases like [MySQL][], [PostgreSQL][] and [MangoDB][]. To not reinvent the wheel, I mainly use hight performance PHP frameworks like [Symfony2][] or [Silex][], with [Doctrine2][] / [Propel][] (ORM) and [Twig][] (template engine). However I think [Laravel][], [Flow][], [Kohana][] and [CodeIgniter][] are some great frameworks as well. I'm a [Composer][], [Packagist][] and [Bower][] user.
 
-What about [unit tests][] ? As a PHP developer, I use [PHPUnit][] mostly but I'm attracted to [atoum][], you should give a try! When tests should drive the development, [Behat][] is a nice Story[BDD][] framework for PHP. [phpspec][] is also very interesting.
+What about [unit tests][] ? As a PHP developer, I use [PHPUnit][] mostly but I'm attracted to [atoum][], you should give a try! When tests should drive the development, [Behat][] is a nice Story[BDD][] framework for PHP. [phpspec][] is also very interesting - I love it <3 !
 
 I develop modules for different open-source CMS systems like [Wordpress][] and [Drupal][] when it's needed.
 
@@ -66,7 +66,7 @@ Contact
 -------
 Feel free to message me via social medias or email me at <{{ site.email }}>.
 
-I'm also present on [about.me][], [facebook][], [google+][], [symfony connect][], [packagist][], [lastfm][],
+I'm also present on [about.me][], [facebook][], [google+][], [symfony connect][], [packagist profile][], [lastfm][],
 [spotify][], [tumblr][], [Instagram][] and [pinterest][].
 
 Pretty Good Privacy
@@ -189,7 +189,7 @@ LeZbHIi4dqZzFzRDBqKE0WjvazMEw1wa3FnoOWhUxRUJMX3FB3V2YNRsqBBTAtoPwg1/uKO5
 [facebook]: {{ site.facebook }}
 [google+]: {{ site.googleplus }}
 [symfony connect]: {{ site.symfony }}
-[packagist]: {{ site.packagist }}
+[packagist profile]: {{ site.packagist }}
 [lastfm]: {{ site.lastfm }}
 [tumblr]: {{ site.tumblr }}
 [instagram]: {{ site.instagram }}
