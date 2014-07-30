@@ -66,7 +66,7 @@ Contact
 -------
 Feel free to message me via social medias or email me at <{{ site.email }}>.
 
-I'm also present on [about.me][], [facebook][], [google+][], [symfony connect][], [lastfm][], [tumblr][],
+I'm also present on [about.me][], [facebook][], [google+][], [symfony connect][], [lastfm][], [spotify][], [tumblr][],
 [Instagram][] and [pinterest][].
 
 Pretty Good Privacy
@@ -193,6 +193,7 @@ LeZbHIi4dqZzFzRDBqKE0WjvazMEw1wa3FnoOWhUxRUJMX3FB3V2YNRsqBBTAtoPwg1/uKO5
 [tumblr]: {{ site.tumblr }}
 [instagram]: {{ site.instagram }}
 [pinterest]: {{ site.pinterest }}
+[spotify]: {{ site.spotify }}
 [BY-NC-SA 3.0]: http://creativecommons.org/licenses/by-nc-sa/3.0/
 [Capistrano]: https://github.com/capistrano/capistrano
 [Capifony]: http://capifony.org/
