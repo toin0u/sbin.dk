@@ -19,6 +19,13 @@
     Lastfm: http://last.fm/user/ackorea
     Spotify: http://open.spotify.com/user/113305486
     Pinterest: https://pinterest.com/toin0u/
+    Reddit: https://www.reddit.com/user/toin0u/
+    YCombinator: https://news.ycombinator.com/user?id=toin0u
+    Keybase: https://keybase.io/toin0u
+    Coinbase: https://coinbase.com/toin0u
+    Stackoverflow: http://stackoverflow.com/users/1759398/toin0u
+    DigitalOcean: https://www.digitalocean.com/community/users/toin0u
+    Bitly: https://bitly.com/u/toin0u
     Location: Copenhagen, Denmark
 
 /* SITE */

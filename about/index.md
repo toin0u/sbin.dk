@@ -69,7 +69,7 @@ Contact
 Feel free to message me via social medias or email me at <{{ site.email }}>.
 
 I'm also present on [about.me][], [facebook][], [google+][], [symfony connect][], [packagist profile][], [lastfm][],
-[spotify][], [tumblr][], [Instagram][] and [pinterest][].
+[spotify][], [tumblr][], [Instagram][] and [pinterest][]. For more info see the [humain page](/humans.txt) :)
 
 Pretty Good Privacy
 -------------------
