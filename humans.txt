@@ -26,6 +26,7 @@
     Stackoverflow: http://stackoverflow.com/users/1759398/toin0u
     DigitalOcean: https://www.digitalocean.com/community/users/toin0u
     Bitly: https://bitly.com/u/toin0u
+    Ello: https://ello.co/toin0u
     Location: Copenhagen, Denmark
 
 /* SITE */
