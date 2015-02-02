@@ -42,10 +42,10 @@ Projects
 » [This blog which is a way to learn and use Ruby](https://github.com/toin0u/sbin.dk)  
 » [A pyhon Sublime Text 2 plugin to test php files with atoum](https://github.com/toin0u/Sublime-atoum)  
 » [Dig concurrently A record & TTL of a domain against a set of DNS servers in Go](https://github.com/toin0u/diggg)  
-» [Concise your urls via extern providers :)](https://github.com/toin0u/concise)  
+» [Concise your urls via extern providers :)](https://github.com/toin0u/concise) & [CLI](https://github.com/toin0u/concise-cli)  
 » [Geocoder in Go](https://github.com/toin0u/geocoder-go)  
 » [DigitalOcean API v2 PHP wrapper](https://github.com/toin0u/DigitalOceanV2)  
-» [Just Yo API wrapper](https://github.com/toin0u/yo)
+» [Just Yo API wrapper](https://github.com/toin0u/yo) & [CLI](https://github.com/toin0u/yo-cli)
 
 Contributions
 -------------
@@ -57,7 +57,8 @@ Contributions
 » [Bernard: Message queue implemented with Redis and PHP](https://github.com/bernardphp/bernard)  
 » [Monitoring application for Bernard](https://github.com/bernardphp/Juno)  
 » [PHP 5.3+ OAuth 1/2 Library](https://github.com/Lusitanian/PHPoAuthLib)  
-» [Extract colors from an image like a human would do](https://github.com/php-loep/color-extractor)
+» [Extract colors from an image like a human would do](https://github.com/php-loep/color-extractor)  
+» [Library for using online Email providers](https://github.com/flint/Stampie)
 
 Website
 -------
