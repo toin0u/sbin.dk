@@ -31,7 +31,7 @@ What about **Open Source** ? I love it :)
 
 Position
 --------
-Developer @ Peytz & Co.
+Developer @ [Bownty](https://bownty.dk/).
 
 Projects
 --------
