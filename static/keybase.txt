@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/toin0u
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://sbin.dk
+  * I am toin0u (https://keybase.io/toin0u) on keybase.
+  * I have a public key with fingerprint 5694 F6E4 B48B C1D8 C84F  48C8 7F8C 16C0 C9A0 A87B
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "5694f6e4b48bc1d8c84f48c87f8c16c0c9a0a87b",
+            "host": "keybase.io",
+            "key_id": "7f8c16c0c9a0a87b",
+            "uid": "101fdc10fbd6aebb73293df85e441d00",
+            "username": "toin0u"
+        },
+        "service": {
+            "hostname": "sbin.dk",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1410989795,
+    "expire_in": 157680000,
+    "prev": "299dd5642a7fa4dc243162ad32af3658f0952e270429043bbcb92c80dc041731",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGbwMvMwMVY3yN24OSCFdWMpw+8TmIIkfz3oVopKT+lUsmqWik7FUylZealpxYV
+FGXmlShZKZmaWZqkmaWaJJlYJCUbplgkW5ikmQBJ8zSLZEOzZINky0SDRAvzJCUd
+pYz8YpAOoDFJicWpepn5QDEgJz4zBSiKRX0pWMLQwDAtJdnQIC0pxSwxNSnJ3NjI
+0jglzcI01cTEMMXAAKSwOLUoLzE3Fai6JD8zz6BUqVZHCShWlpmcCnIxyGKofHFS
+Zp5eSjZQU0FRfkl+cn4OUDCjpKTACqSnpLIApKg8NSkeqj0eqD4F6GGghrLUouLM
+/DwlK0OgyuSSTJB5hiaGBpYWluaWpjpKqRUFmUWp8ZkgFabmZhYGQACyJrUMaKSR
+pWVKiqmZiVGieVqiSUqykYmxoZlRYoqxUWKasZmpRZqBpalRqpG5gYmRpYGJcVJS
+cpKlUbKFQUqygYmhubGhEshDhXn5SlYmQGcmpoO8kpmel1hSWpSqVMvVySTDwsDI
+xcDGygSKMwYuTgFYTMZNFWBYfORKfNSiXOPf+aan5Xhbqz86aNy7pBF2cLFIh0nl
+rJLiIO1YMyMe3UfZ9v+3vz6Y/St6alz22uLGul9h/1rmlzlnWjxNuFvey/VAZkvv
+KQ+B3AanhKm/GEWEvjEVdBnfe/hAUkd1qovpFU7VGXLFyresG864vRVcm/zu1ML1
+B4VcDgQWNdRnaG0WWW4ceVIxOuXaVW2rl+12VrvW/hRL0blzSbtRNF7feNqr9vV1
+569EZDxz2XfS7PH1+R9Y1X48F8vKsDsU8I1L9Lf4Ap/HQVyHjvvwvv5qps2Z6bih
+us985Ta+V5VfStZJMLxc1bD92+yMnJC+M6wC07UCi34x/G8y3XTjwy/h9qXtjFKR
+Ct5Gwm1/XFYkpr0u7TLtcK3SmTJtXt+x8D/Zb26e3NK1bWGLkK9+91w+oY5It0mJ
+3zMdnvIcXil1wKnmSfy+UonaVwsmaG8pMDnJzuncYbdXNJllz5PbfStSXx/jCTm7
+dlrMBwkBH99zthvFu6/cVYxdfP7xopfcqr332RssXsnNen77pZJnQJt99LL1+n1/
+GPm/vX5x1ab1vYNPq8mzHwnBisp1OxNrRa+Wms5Kzd8TE7mzxH//1herm6YmsFyJ
+2bl5L5OXSNQnZ7GX6T+ez7NZ3K2uv/DNsR3TrnpZcQuKZfz/ftdih82CtUt/Gh/s
+bfXLf9GRoWdaG2vXKL/lYut+79MT3WTqVD84AgA=
+=+Pe9
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/toin0u
+
+==================================================================

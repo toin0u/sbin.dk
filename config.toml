@@ -1,0 +1,38 @@
+baseurl = "http://sbin.dk/"
+languageCode = "en-us"
+title = "sbin.dk"
+theme = "casper"
+paginate = 5
+DisqusShortname = "sbindk"
+Copyright = "© 2012 - 2016"
+canonifyurls = true
+
+[permalinks]
+  post = "/:slug/"
+
+[params]
+  description = ""
+  cover = "images/cover.jpg"
+  author = "Antoine Corcy"
+  authorlocation = "Copenhagen, Denmark"
+  authorwebsite = "http://sbin.dk"
+  bio= "Developer / Copenhagen"
+  logo = "images/logo.gif"
+  googleAnalyticsUserID = "UA-31694981-1"
+  githubName = "toin0u"
+  twitterName = "toin0u"
+  linkedinName = "antoinecorcy"
+  hideHUGOSupport = false
+
+[[menu.main]]
+  name = "Home"
+  weight = -100
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Contact"
+  weight = 0
+  identifier = "contact"
+  pre = "<br />"
+  url = "/contact"

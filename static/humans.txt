@@ -1,0 +1,38 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+    Web Developer: Antoine Corcy
+    Contact: contact [at] sbin.dk
+    Location: Copenhagen, Denmark
+    Site: http://sbin.dk/
+    About.me: http://about.me/antoinecorcy
+    Symfony connect: https://connect.sensiolabs.com/profile/toin0u
+    Packagist: https://packagist.org/users/toin0u/
+    Twitter: https://twitter.com/toin0u
+    Github: https://github.com/toin0u
+    Google+: https://plus.google.com/102966454202044929133/
+    Linkedin: https://www.linkedin.com/pub/antoine-corcy/51/a24/11b
+    Facebook: https://facebook.com/toin0u
+    Tumblr: http://dkfr.tumblr.com/
+    Instagram: http://instagram.com/toin0u/
+    Lastfm: http://last.fm/user/ackorea
+    Spotify: http://open.spotify.com/user/ackorea
+    Pinterest: https://pinterest.com/toin0u/
+    Reddit: https://www.reddit.com/user/toin0u/
+    YCombinator: https://news.ycombinator.com/user?id=toin0u
+    Keybase: https://keybase.io/toin0u
+    Coinbase: https://coinbase.com/toin0u
+    Stackoverflow: http://stackoverflow.com/users/1759398/toin0u
+    DigitalOcean: https://www.digitalocean.com/community/users/toin0u
+    Bitly: https://bitly.com/u/toin0u
+    Ello: https://ello.co/toin0u
+    Drupal: https://www.drupal.org/u/toin0u
+
+/* SITE */
+    Language: English
+    Doctype: HTML5
+    Standards: HTML5, CSS3, RSS, Media Queries, Microdata, WAI-ARIA, CORS
+    Software: Hugo, Vim
+    Source: https://github.com/toin0u/sbin.dk
