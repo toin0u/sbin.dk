@@ -1,4 +1,4 @@
-baseurl = "http://sbin.dk/"
+baseurl = "//sbin.dk/"
 languageCode = "en-us"
 title = "sbin.dk"
 theme = "casper"
